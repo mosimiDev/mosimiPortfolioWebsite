@@ -141,7 +141,7 @@ function Experience() {
             {/* <!-- Text div --> */}
             <div>
               <h4 className="text-white font-SFproLight text-md">
-                -2023 Zero To Mastery React Native Developer: UDEMY
+                -2023 Zero To Mastery in Angular: UDEMY
               </h4>
             </div>
           </div>
@@ -156,7 +156,23 @@ function Experience() {
             {/* <!-- Text div --> */}
             <div>
               <h4 className="text-white font-SFproLight text-md">
-                -2022 Complete Web Developer: UDEMY
+                -2022 Zero To Mastery React Developer: UDEMY
+              </h4>
+            </div>
+          </div>
+          <div className="flex p-5 gap-3">
+            {/* <!-- Icons div --> */}
+            <div>
+              <span className="text-white">
+                <FontAwesomeIcon icon={faGraduationCap} />
+              </span>
+              <div id="vl"></div>
+            </div>
+            {/* <!-- Text div --> */}
+            <div>
+              <h4 className="text-white font-SFproLight text-md">
+                {" "}
+                -2021 Complete Web Developer: UDEMY
               </h4>
             </div>
           </div>
@@ -172,21 +188,6 @@ function Experience() {
             <div>
               <h4 className="text-white font-SFproLight text-md">
                 Responsive Web Design: FreeCodeCamp
-              </h4>
-            </div>
-          </div>
-          <div className="flex p-5 gap-3">
-            {/* <!-- Icons div --> */}
-            <div>
-              <span className="text-white">
-                <FontAwesomeIcon icon={faGraduationCap} />
-              </span>
-              <div id="vl"></div>
-            </div>
-            {/* <!-- Text div --> */}
-            <div>
-              <h4 className="text-white font-SFproLight text-md">
-                Google Developer Student Club(GDSC), UNILAG -Member
               </h4>
             </div>
           </div>

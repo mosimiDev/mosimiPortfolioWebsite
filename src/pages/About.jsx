@@ -28,21 +28,27 @@ function About() {
               Hi, I am Mosimi Akinlabi, a creative Frontend Developer. I love
               programming UI for mobile applications and websites with creative
               interfaces that meet functional needs using technologies like
-              React Native, TypeScript, React.js, Redux, Javascript, Material
-              UI, TailwindCSS, CSS3 and HTML5. My skills are wide ranging,
-              spanning across multiple creative and technical disciplines and I
-              am always in constant pursuit of skills that can help develop me
-              into a well rounded professional. I like to learn, make impactful
-              changes to tech by teaching newbies in tech through the Medium
-              platform and have fun while at it. In my spare time, I like to
-              draw, write, watch anime, eat good food and hang out with my
-              friends.
+              Angular, ReactJS, React-Redux,React Native, TypeScript,
+              Javascript, Material UI, TailwindCSS, CSS3 and HTML5. I am
+              versatile with tools like Git version control system that helps a
+              team keeptrack of the work done on a product.
+            </p>
+            <p className="font-SFproLight text-md lg:text-xl lg:mb-3">
+              
+              My skills are wide ranging, spanning across multiple creative and
+              technical disciplines and I am always in constant pursuit of
+              skills that can help develop me into a well rounded professional.
+              I like to learn, make impactful changes to tech by teaching
+              newbies in tech through the Medium platform and have fun while at
+              it. In my spare time, I like to draw, write, watch anime, eat good
+              food and hang out with my friends.
             </p>
             <a
               href={
-                  "https://docs.google.com/document/d/1ylaVmdcaPWoR6f7n2cgE_jGbXeoQ5laHzNFEoZOu9V4/edit?usp=sharing"
-              } target="_blank"
-              className="bg-[#000] rounded-3xl w-36 mt-3  lg:mt-3 text-sm md:text-md text-white p-2 font-SFproLight transition ease-in-out delay-150 hover:-translate-y-0.5 hover:scale-110  duration-300"
+                "https://docs.google.com/document/d/1ylaVmdcaPWoR6f7n2cgE_jGbXeoQ5laHzNFEoZOu9V4/edit?usp=sharing"
+              }
+              target="_blank"
+              className="bg-[#000] rounded-3xl w-36 mt-3  lg:mt-4 text-sm md:text-md text-white p-2 font-SFproLight transition ease-in-out delay-150 hover:-translate-y-0.5 hover:scale-110  duration-300"
             >
               View CV
             </a>

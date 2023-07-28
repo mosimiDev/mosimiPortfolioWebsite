@@ -547,7 +547,7 @@ function Projects() {
         </Swiper>
       </div>
       {/* Project description section */}
-      <div className="relative xl:flex xl:gap-5 xl:w-full bg-red-400">
+      <div className="relative xl:flex xl:gap-5 xl:w-full ">
         {/* project description 1  */}
         <div className="absolute bottom-[39rem] xl:bottom-[0rem] xl:top-[0.5rem]  w-72 md:w-[26rem] lg:w-[28rem] md:mx-52 lg:mx-96 xl:mx-[5rem]  mx-auto z-20 ">
           <p className="font-SFproLight text-md lg:text-xl font-bold my-2 mx-5 dark:text-[#fff]">
