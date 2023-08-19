@@ -92,7 +92,9 @@ function Navbar() {
           Contact
         </Link>
         <hr className="text-white mx-auto w-32 lg:hidden " />
-        <DarkMode />
+        <div className="w-38 mx-auto lg:mx-2">
+          <DarkMode />
+        </div>
       </ul>
     </nav>
   );

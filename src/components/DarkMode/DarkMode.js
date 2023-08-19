@@ -4,18 +4,16 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faMoon, faSun } from "@fortawesome/free-regular-svg-icons";
 
 const DarkMode = () => {
-    const [theme, setTheme] = useState("null");
-    const [clicked, setClicked] = useState(false);
+  const [theme, setTheme] = useState("null");
+  const [clicked, setClicked] = useState(false);
 
-
-    useEffect(() => {
-        if (window.matchMedia('(prefers-color-scheme:dark)').matches) {
-            setTheme('dark');
-        }
-        else {
-            setTheme('light');
-        }
-    }, [])
+  useEffect(() => {
+    if (window.matchMedia("(prefers-color-scheme:dark)").matches) {
+      setTheme("dark");
+    } else {
+      setTheme("light");
+    }
+  }, []);
 
   useEffect(() => {
     if (theme === "dark") {
@@ -26,8 +24,8 @@ const DarkMode = () => {
   }, [theme]);
 
   const handleThemeSwitch = () => {
-      setTheme(theme === "dark" ? "light" : "dark");
-       setClicked(!clicked);
+    setTheme(theme === "dark" ? "light" : "dark");
+    setClicked(!clicked);
   };
   return (
     <div>
@@ -36,7 +34,7 @@ const DarkMode = () => {
         onClick={handleThemeSwitch}
       >
         <FontAwesomeIcon
-          icon={clicked ? faSun : faMoon }
+          icon={clicked ? faSun : faMoon}
           className="mx-2 text-xl"
         />
         {clicked ? "Light Mode" : "Dark Mode"}

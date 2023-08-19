@@ -1,7 +1,7 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
   content: ["./src/**/*.{html,js,jsx,ts,tsx}"],
-  darkMode:"class",
+  darkMode: "className",
   theme: {
     fontFamily: {
       SFproLight: ["SFproLight", "light"],
@@ -9,7 +9,7 @@ module.exports = {
       SFproRegular: ["SFproRegular", "regular"],
       SFproSemibold: ["SFproSemibold", "semibold"],
       SFproBold: ["SFproBold", "bold"],
-      SFproItalic:["SFproItalic","italic"]
+      SFproItalic: ["SFproItalic", "italic"],
     },
     extend: {},
   },

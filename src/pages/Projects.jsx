@@ -693,8 +693,8 @@ function Projects() {
         {/* project description 4 */}
         <div className="w-72 mx-auto md:w-[26rem] lg:w-[28rem] lg:mx-96 xl:absolute xl:mx-32 xl:left-[35rem] 2xl:left-[47rem] ">
           <p className="font-SFproLight font-bold text-md lg:text-xl my-2 mx-5 dark:text-[#fff]">
-            LOAN CALCULATOR is built with Javascript, ReactJS, TailwindCSS and Material UI
-            Framework.
+            LOAN CALCULATOR is built with Javascript, ReactJS, TailwindCSS and
+            Material UI Framework.
           </p>
           {/* Icons section */}
           <div className="flex gap-5 w-20 mx-auto ">
@@ -758,8 +758,8 @@ function Projects() {
       {/* project description  */}
       <div className="w-72 md:w-[26rem] lg:w-[28rem] mx-auto lg:mx-96 xl:mx-[28rem] 2xl:mx-[34rem]">
         <p className="font-SFproLight font-bold text-md lg:text-xl my-2 mx-5 dark:text-[#fff]">
-          WEATHER FORECAST is an app built with Typescript, Figma Tool, ReactJS, TailwindCSS and
-          Material UI Framework.
+          WEATHER FORECAST is an app built with Typescript, Figma Tool, ReactJS,
+          TailwindCSS and Material UI Framework.
         </p>
         {/* Icons section */}
         <div className="flex gap-5 w-20 mx-auto ">
