@@ -4,7 +4,6 @@ import { faAnglesDown } from "@fortawesome/free-solid-svg-icons";
 import { faLinkedin } from "@fortawesome/free-brands-svg-icons";
 import { faSquareGithub } from "@fortawesome/free-brands-svg-icons";
 import { HashLink as Link } from "react-router-hash-link";
-import "./Home.css";
 import Navbar from "../layout/Navbar";
 
 
