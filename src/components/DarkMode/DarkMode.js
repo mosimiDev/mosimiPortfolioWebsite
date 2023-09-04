@@ -30,7 +30,7 @@ const DarkMode = () => {
   return (
     <div>
       <button
-        className="w-38 mx-28 lg:mx-2 mb-4 p-1 px-2 text-[#fff] rounded-3xl dark:bg-[#58FFF5] bg-[#58FFF5] transition ease-in-out delay-75 duration-200"
+        className="w-38 mx-8 lg:mx-2 mb-4 p-1 px-2 text-[#fff] rounded-3xl dark:bg-[#58FFF5] bg-[#58FFF5] transition ease-in-out delay-75 duration-200"
         onClick={handleThemeSwitch}
       >
         <FontAwesomeIcon
@@ -48,14 +48,5 @@ export default DarkMode;
 //  <FontAwesomeIcon icon={clicked? faMoon:faSun} />
 //             Dark Mode
 
-{
-  /* <input
-                className='dark_mode_input'
-                type='checkbox'
-                id='darkmode-toggle'
-            />
-            <label className='dark_mode_label' for='darkmode-toggle'>
-                <Sun />
-                <Moon />
-            </label> */
-}
+// 
+

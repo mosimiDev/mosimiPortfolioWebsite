@@ -10,7 +10,7 @@ function Experience() {
       {/* <!-- Experiences Tab --> */}
       <div className="lg:flex w-11/12 lg:w-3/4 lg:gap-4 xl:gap-10 mx-auto ">
         {/* <!-- First tab --> */}
-        <div className="bg-yellow-300 mb-12 w-full rounded-xl shadow-4xl lg:w-96 lg:h-[64rem] ">
+        <div className="bg-yellow-300 mb-12 w-full rounded-xl shadow-4xl lg:w-96 lg:h-[72rem] ">
           {/* <!-- Icons x text div --> */}
           <div className="flex p-5 gap-3">
             {/* <!-- Icons div --> */}
@@ -23,14 +23,42 @@ function Experience() {
             {/* <!-- Text div --> */}
             <div>
               <p className="text-[#C0C0C0] font-SFproBold">
-                JAN 2023 - Present
+                May 2023 - Present
               </p>
-              <h4 className="text-white font-SFproBold text-md">FREELANCE</h4>
+              <h4 className="text-white font-SFproBold text-md">FREELANCE MOBILE APP DEVELOPER/TECHNICAL WRITER</h4>
               <p className="text-white font-SFproLight text-md">-Upwork</p>
               <p className="text-white font-SFproLight text-md">-LinkedIn</p>
               <p className="text-white font-SFproLight text-md">-Turing</p>
               <p className="text-white font-SFproLight text-md">
                 -People Per Hour
+              </p>
+            </div>
+          </div>
+          <div className="flex p-5 gap-3">
+            {/* <!-- Icons div --> */}
+            <div>
+              <span className="text-white">
+                <FontAwesomeIcon icon={faGraduationCap} />
+              </span>
+              <div id="vl"></div>
+            </div>
+            {/* <!-- Text div --> */}
+            <div>
+              <p className="text-[#C0C0C0] font-SFproBold ">
+                FEB 2023 - APR 2023
+              </p>
+              <h4 className="text-white font-SFproBold text-md">
+                FRONTEND WEB DEVELOPER-
+                <span className="font-SFproItalic">LULU, Nigeria</span>
+              </h4>
+              <p className="text-white font-SFproLight text-md">
+                -Built the landing page for the company's product
+              </p>
+              <p className="text-white font-SFproLight text-md">
+                -Maintained existing code base
+              </p>
+              <p className="text-white font-SFproLight text-md">
+                -Mobile, Tablet and Desktop reponsive
               </p>
             </div>
           </div>
@@ -125,7 +153,7 @@ function Experience() {
           </div>
         </div>
         {/* <!-- Second tab --> */}
-        <div className="bg-yellow-300 rounded-xl shadow-4xl lg:h-[64rem] w-full  lg:w-96  ">
+        <div className="bg-yellow-300 rounded-xl shadow-4xl lg:h-[72rem] w-full  lg:w-96  ">
           <div className="text-white font-SFproBold p-4">
             Relevant Education
           </div>

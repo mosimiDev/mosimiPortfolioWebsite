@@ -19,29 +19,29 @@ function About() {
         <div className="lg:flex lg:gap-8 mb-8 lg:mb-12">
           <div className="rounded-full mt-4 ml-4 lg:ml-12 lg:mt-6 mb-4 w-64 h-64 lg:w-72 lg:h-72 bg-yellow-300 z-20">
             <img
-              src={require("../assets/IMG_9135.JPG")}
+              src={require("../assets/IMG_1890.png")}
               alt="img"
-              className="max-w-full h-60 lg:w-64 mt-5 lg:h-60 object-cover object-center mx-auto rounded-full overflow-hidden"
+              className="w-4/5 h-60 lg:w-64 pt-4 mt-5 lg:pt-1 lg:h-64 object-cover object-center mx-auto  rounded-full overflow-hidden"
             />
           </div>
           <div className="w-11/12 mx-auto p-6  lg:w-2/3 lg:h-[32rem] lg:p-12 bg-[#fff] shadow-xl rounded-xl">
             <p className="font-SFproLight text-md lg:text-xl mb-2">
-              Hello. I am Mosimi Akinlabi, a mobile and web frontend Developer.
+              Hello. I am Mosimi Akinlabi, a Mobile and Web Frontend Developer.
               I love programming UI for mobile applications and websites with
-              creative interfaces while ensuring that the product aim is well
+              creative interfaces while ensuring that the product's aim is well
               communicated to its users.
             </p>
             <p className="font-SFproLight text-md lg:text-xl mb-2">
-              I use frameworks like Angular, ReactJS, React-Redux,React Native,
-              TypeScript, Javascript, Material UI, TailwindCSS, CSS3 and HTML5
-              to achieve this. I am also versatile with tools like Git version
-              control system that helps a team keeptrack of the work done on a
-              product.
+              I use frameworks like React Native, Firebase, ReactJS,
+              React-Redux, Angular, TypeScript, Javascript, Material UI,
+              TailwindCSS, CSS3 and HTML5 to achieve this. I am also versatile
+              with tools like Git version control system that helps team
+              keeptrack of the work done on a product.
             </p>
             <p className="font-SFproLight text-md lg:text-xl mb-3 ">
               I love to learn, make impactful changes to the tech space by
-              teaching newbies in tech through the Medium platform and have fun
-              while at it. In my spare time, I play volleyball, draw, write,
+              teaching newbies in tech through my LinkedIn page and the Medium platform, and have fun
+              while at it. In my spare time, I play volleyball, write, draw,
               watch anime, eat good food and hang out with my friends.
             </p>
             <a
@@ -105,8 +105,12 @@ function About() {
           Stacks
         </h4>
         <span className="flex gap-3 ml-12 text-xl">
-          <FontAwesomeIcon icon={faAngular} className="dark:text-[#fff]" />
-          <p className="tracking-wide text-md dark:text-[#fff]">Angular</p>
+          <FontAwesomeIcon icon={faReact} className="dark:text-[#fff]" />
+          <p className="tracking-wide text-md dark:text-[#fff]">React-Native</p>
+        </span>
+        <span className="flex gap-3 ml-12 text-xl">
+          <FontAwesomeIcon icon={faFire} className="dark:text-[#fff]" />
+          <p className="tracking-wide text-md dark:text-[#fff]">Firebase</p>
         </span>
         <span className="flex gap-3 ml-12 text-xl">
           <FontAwesomeIcon icon={faReact} className="dark:text-[#fff]" />
@@ -117,8 +121,8 @@ function About() {
           <p className="tracking-wide text-md dark:text-[#fff]">React-Redux</p>
         </span>
         <span className="flex gap-3 ml-12 text-xl">
-          <FontAwesomeIcon icon={faReact} className="dark:text-[#fff]" />
-          <p className="tracking-wide text-md dark:text-[#fff]">React-Native</p>
+          <FontAwesomeIcon icon={faAngular} className="dark:text-[#fff]" />
+          <p className="tracking-wide text-md dark:text-[#fff]">Angular</p>
         </span>
         <span className="flex gap-3 ml-12 text-xl">
           <FontAwesomeIcon icon={faSplotch} className="dark:text-[#fff]" />

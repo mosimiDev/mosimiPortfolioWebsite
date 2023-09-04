@@ -13,7 +13,7 @@ function Home() {
     <div id="home" className="w-screen bg-yellow-300 h-screen dark:bg-[#000]">
       <Navbar />
       {/* Home Layout */}
-      <div className="grid  w-3/4 lg:w-1/2 mx-12 md:mx-auto  place-items-center my-4 lg:my-20 ">
+      <div className="grid  w-3/4 lg:w-1/2 mx-12 md:mx-auto  place-items-center my-4 lg:my-12 ">
         <div className="">
           <img
             src={require("../assets/Developer.png")}
@@ -23,7 +23,7 @@ function Home() {
         <div className=" font-SFproLight mx-auto text-md md:text-xl md:tracking-wide text-white my-0 py-0  text-center">
           Here, I change the world one line of code at a time
         </div>
-        <div className=" font-SFproBold text-md md:text-xl md:w-[26rem] tracking-wide w-40 mx-auto my-0 py-0  text-center dark:bg-[#fff]">
+        <div className=" font-SFproBold underline text-md md:text-xl md:w-[26rem] tracking-wide w-40 mx-auto my-0 py-0  text-center dark:bg-[#fff]">
           Welcome
         </div>
 
