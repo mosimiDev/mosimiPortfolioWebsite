@@ -17,7 +17,7 @@ function Home() {
         <div className="">
           <img
             src={require("../assets/Developer.png")}
-            className="block w-full max-h-[36rem] md:max-h-[34rem] object-cover mb-0 pb-0 "
+            className="block w-full max-h-[36rem] md:max-h-[26rem] object-cover mb-0 pb-0 "
           />
         </div>
         <div className=" font-SFproLight mx-auto text-md md:text-xl md:tracking-wide text-white my-0 py-0  text-center">
