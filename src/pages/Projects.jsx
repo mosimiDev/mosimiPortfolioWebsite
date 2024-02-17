@@ -126,56 +126,67 @@ function Projects() {
         <SwiperSlide className="swiper-slide">
           <img
             src={require("../assets/Projects image/FireShot Capture 037 - Lulu - localhost.png")}
+            alt="img"
           />
         </SwiperSlide>
         <SwiperSlide className="swiper-slide">
           <img
             src={require("../assets/Projects image/FireShot Capture 038 - Lulu - localhost.png")}
+            alt="img"
           />
         </SwiperSlide>
         <SwiperSlide className="swiper-slide">
           <img
             src={require("../assets/Projects image/FireShot Capture 039 - Lulu - localhost.png")}
+            alt="img"
           />
         </SwiperSlide>
         <SwiperSlide className="swiper-slide">
           <img
             src={require("../assets/Projects image/FireShot Capture 040 - Lulu - localhost.png")}
+            alt="img"
           />
         </SwiperSlide>
         <SwiperSlide className="swiper-slide">
           <img
             src={require("../assets/Projects image/FireShot Capture 041 - Lulu - localhost.png")}
+            alt="img"
           />
         </SwiperSlide>
         <SwiperSlide className="swiper-slide">
           <img
             src={require("../assets/Projects image/FireShot Capture 042 - Lulu - localhost.png")}
+            alt="img"
           />
         </SwiperSlide>
         <SwiperSlide className="swiper-slide">
           <img
             src={require("../assets/Projects image/FireShot Capture 043 - Lulu - localhost.png")}
+            alt="img"
           />
         </SwiperSlide>
         <SwiperSlide className="swiper-slide">
           <img
             src={require("../assets/Projects image/FireShot Capture 044 - Lulu - localhost.png")}
+            alt="img"
           />
         </SwiperSlide>
         <SwiperSlide className="swiper-slide">
           <img
             src={require("../assets/Projects image/FireShot Capture 046 - Responsinator - localhost_3000_ - www.responsinator.com.png")}
+            alt="img"
           />
         </SwiperSlide>
         <SwiperSlide className="swiper-slide">
           <img
             src={require("../assets/Projects image/FireShot Capture 047 - Responsinator - localhost_3000_ - www.responsinator.com.png")}
+            alt="img"
           />
         </SwiperSlide>
         <SwiperSlide className="swiper-slide">
           <img
             src={require("../assets/Projects image/FireShot Capture 048 - Responsinator - localhost_3000_ - www.responsinator.com.png")}
+            alt="img"
           />
         </SwiperSlide>
         <div className="autoplay-progress" slot="container-end">
@@ -196,6 +207,7 @@ function Projects() {
           <a
             href="https://lulu-fe-7ry5-cfcbjy1kw-mosimidev.vercel.app/"
             target="_blank"
+            rel="noreferrer"
             className="text-xl lg:text-2xl"
           >
             <FontAwesomeIcon
@@ -206,6 +218,7 @@ function Projects() {
           <a
             href="https://github.com/mosimiDev/lulu-fe/tree/main/lulu-fe"
             target="_blank"
+            rel="noreferrer"
             className="text-xl lg:text-2xl"
           >
             <FontAwesomeIcon
@@ -233,36 +246,43 @@ function Projects() {
         <SwiperSlide className="swiper-slide">
           <img
             src={require("../assets/Projects image/FireShot Capture 049 - Axel Gustafsson - .png")}
+            alt="img"
           />
         </SwiperSlide>
         <SwiperSlide className="swiper-slide">
           <img
             src={require("../assets/Projects image/FireShot Capture 050 - Axel Gustafsson - .png")}
+            alt="img"
           />
         </SwiperSlide>
         <SwiperSlide className="swiper-slide">
           <img
             src={require("../assets/Projects image/FireShot Capture 051 - Axel Gustafsson - .png")}
+            alt="img"
           />
         </SwiperSlide>
         <SwiperSlide className="swiper-slide">
           <img
             src={require("../assets/Projects image/FireShot Capture 052 - Axel Gustafsson - .png")}
+            alt="img"
           />
         </SwiperSlide>
         <SwiperSlide className="swiper-slide">
           <img
             src={require("../assets/Projects image/FireShot Capture 053 - Axel Gustafsson - .png")}
+            alt="img"
           />
         </SwiperSlide>
         <SwiperSlide className="swiper-slide">
           <img
             src={require("../assets/Projects image/FireShot Capture 054 - Axel Gustafsson - .png")}
+            alt="img"
           />
         </SwiperSlide>
         <SwiperSlide className="swiper-slide">
           <img
             src={require("../assets/Projects image/FireShot Capture 055 - Axel Gustafsson - .png")}
+            alt="img"
           />
         </SwiperSlide>
         <div className="autoplay-progress" slot="container-end">
@@ -283,6 +303,7 @@ function Projects() {
           <a
             href="https://axel-gustaffon-f1g1.vercel.app/"
             target="_blank"
+            rel="noreferrer"
             className="text-xl lg:text-2xl"
           >
             <FontAwesomeIcon
@@ -293,6 +314,7 @@ function Projects() {
           <a
             href="https://github.com/mosimiDev/Axel-Gustaffon"
             target="_blank"
+            rel="noreferrer"
             className="text-xl lg:text-2xl"
           >
             <FontAwesomeIcon
@@ -320,26 +342,31 @@ function Projects() {
         <SwiperSlide className="swiper-slide">
           <img
             src={require("../assets/Projects image/FireShot Capture 078 - React App - ai-gpt-3-44uv.vercel.app.png")}
+            alt="img"
           />
         </SwiperSlide>
         <SwiperSlide className="swiper-slide">
           <img
             src={require("../assets/Projects image/FireShot Capture 079 - React App - ai-gpt-3-44uv.vercel.app.png")}
+            alt="img"
           />
         </SwiperSlide>
         <SwiperSlide className="swiper-slide">
           <img
             src={require("../assets/Projects image/FireShot Capture 080 - React App - ai-gpt-3-44uv.vercel.app.png")}
+            alt="img"
           />
         </SwiperSlide>
         <SwiperSlide className="swiper-slide">
           <img
             src={require("../assets/Projects image/FireShot Capture 081 - React App - ai-gpt-3-44uv.vercel.app.png")}
+            alt="img"
           />
         </SwiperSlide>
         <SwiperSlide className="swiper-slide">
           <img
             src={require("../assets/Projects image/FireShot Capture 083 - React App - ai-gpt-3-44uv.vercel.app.png")}
+            alt="img"
           />
         </SwiperSlide>
         <div className="autoplay-progress" slot="container-end">
@@ -360,6 +387,7 @@ function Projects() {
           <a
             href="https://ai-gpt-3-44uv.vercel.app/"
             target="_blank"
+            rel="noreferrer"
             className="text-xl lg:text-2xl"
           >
             <FontAwesomeIcon
@@ -370,6 +398,7 @@ function Projects() {
           <a
             href="https://github.com/mosimiDev/AI-gpt-3"
             target="_blank"
+            rel="noreferrer"
             className="text-xl lg:text-2xl"
           >
             <FontAwesomeIcon
@@ -397,21 +426,25 @@ function Projects() {
         <SwiperSlide className="swiper-slide">
           <img
             src={require("../assets/Projects image/FireShot Capture 033 - Splash Page - .png")}
+            alt="img"
           />
         </SwiperSlide>
         <SwiperSlide className="swiper-slide">
           <img
             src={require("../assets/Projects image/FireShot Capture 034 - Splash Page - .png")}
+            alt="img"
           />
         </SwiperSlide>
         <SwiperSlide className="swiper-slide">
           <img
             src={require("../assets/Projects image/FireShot Capture 035 - Splash Page - .png")}
+            alt="img"
           />
         </SwiperSlide>
         <SwiperSlide className="swiper-slide">
           <img
             src={require("../assets/Projects image/FireShot Capture 036 - Splash Page - .png")}
+            alt="img"
           />
         </SwiperSlide>
         <div className="autoplay-progress" slot="container-end">
@@ -432,6 +465,7 @@ function Projects() {
           <a
             href="https://splash-page-eight-liard.vercel.app/"
             target="_blank"
+            rel="noreferrer"
             className="text-xl lg:text-2xl"
           >
             <FontAwesomeIcon
@@ -442,6 +476,7 @@ function Projects() {
           <a
             href="https://github.com/mosimiDev/Splash-page"
             target="_blank"
+            rel="noreferrer"
             className="text-xl lg:text-2xl"
           >
             <FontAwesomeIcon
@@ -480,31 +515,58 @@ function Projects() {
           className="mySwiperrr "
         >
           <SwiperSlide className="swiperrr-slide ">
-            <img src={require("../assets/Projects image/IMG_E8987.JPG")} />
+            <img
+              src={require("../assets/Projects image/IMG_E8987.JPG")}
+              alt="img"
+            />
           </SwiperSlide>
           <SwiperSlide className="swiperrr-slide ">
-            <img src={require("../assets/Projects image/IMG_E8988.JPG")} />
+            <img
+              src={require("../assets/Projects image/IMG_E8988.JPG")}
+              alt="img"
+            />
           </SwiperSlide>
           <SwiperSlide className="swiperrr-slide ">
-            <img src={require("../assets/Projects image/IMG_E8989.JPG")} />
+            <img
+              src={require("../assets/Projects image/IMG_E8989.JPG")}
+              alt="img"
+            />
           </SwiperSlide>
           <SwiperSlide className="swiperrr-slide ">
-            <img src={require("../assets/Projects image/IMG_E8990.JPG")} />
+            <img
+              src={require("../assets/Projects image/IMG_E8990.JPG")}
+              alt="img"
+            />
           </SwiperSlide>
           <SwiperSlide className="swiperrr-slide ">
-            <img src={require("../assets/Projects image/IMG_E8991.JPG")} />
+            <img
+              src={require("../assets/Projects image/IMG_E8991.JPG")}
+              alt="img"
+            />
           </SwiperSlide>
           <SwiperSlide className="swiperrr-slide ">
-            <img src={require("../assets/Projects image/IMG_E8993.JPG")} />
+            <img
+              src={require("../assets/Projects image/IMG_E8993.JPG")}
+              alt="img"
+            />
           </SwiperSlide>
           <SwiperSlide className="swiperrr-slide ">
-            <img src={require("../assets/Projects image/IMG_E8994.JPG")} />
+            <img
+              src={require("../assets/Projects image/IMG_E8994.JPG")}
+              alt="img"
+            />
           </SwiperSlide>
           <SwiperSlide className="swiperrr-slide ">
-            <img src={require("../assets/Projects image/IMG_E8995.JPG")} />
+            <img
+              src={require("../assets/Projects image/IMG_E8995.JPG")}
+              alt="img"
+            />
           </SwiperSlide>
           <SwiperSlide className="swiperrr-slide">
-            <img src={require("../assets/Projects image/IMG_E8996.JPG")} />
+            <img
+              src={require("../assets/Projects image/IMG_E8996.JPG")}
+              alt="img"
+            />
           </SwiperSlide>
         </Swiper>
         {/* Application two */}
@@ -527,21 +589,25 @@ function Projects() {
           <SwiperSlide className="swiperrr-slidey ">
             <img
               src={require("../assets/Projects image/FireShot Capture 068 - Custom Countdown - .png")}
+              alt="img"
             />
           </SwiperSlide>
           <SwiperSlide className="swiperrr-slidey ">
             <img
               src={require("../assets/Projects image/FireShot Capture 006 - Custom Countdown - .png")}
+              alt="img"
             />
           </SwiperSlide>
           <SwiperSlide className="swiperrr-slidey ">
             <img
               src={require("../assets/Projects image/FireShot Capture 069 - Custom Countdown - .png")}
+              alt="img"
             />
           </SwiperSlide>
           <SwiperSlide className="swiperrr-slidey ">
             <img
               src={require("../assets/Projects image/FireShot Capture 066 - Custom Countdown - .png")}
+              alt="img"
             />
           </SwiperSlide>
         </Swiper>
@@ -556,12 +622,18 @@ function Projects() {
           </p>
           {/* Icons section */}
           <div className="flex gap-5 w-20 mx-auto ">
-            <a href="#" target="_blank" className="text-xl lg:text-2xl">
+            <a
+              href="https://github.com/mosimiDev/islandmfb-rn"
+              target="_blank"
+              rel="noreferrer"
+              className="text-xl lg:text-2xl"
+            >
               <FontAwesomeIcon icon={faLink} className="dark:text-[#fff]" />
             </a>
             <a
               href="https://github.com/mosimiDev/islandmfb-rn"
               target="_blank"
+              rel="noreferrer"
               className="text-xl lg:text-2xl"
             >
               <FontAwesomeIcon
@@ -583,6 +655,7 @@ function Projects() {
             <a
               href="https://countdown-timer-pojz.vercel.app/"
               target="_blank"
+              rel="noreferrer"
               className="text-xl lg:text-2xl"
             >
               <FontAwesomeIcon icon={faLink} className="dark:text-[#fff]" />
@@ -590,6 +663,7 @@ function Projects() {
             <a
               href="https://github.com/mosimiDev/Countdown-Timer"
               target="_blank"
+              rel="noreferrer"
               className="text-xl lg:text-2xl"
             >
               <FontAwesomeIcon
@@ -623,11 +697,13 @@ function Projects() {
           <SwiperSlide className="swiperrr-slide ">
             <img
               src={require("../assets/Projects image/FireShot Capture 008 - Custom Calculator - .png")}
+              alt="img"
             />
           </SwiperSlide>
           <SwiperSlide className="swiperrr-slide ">
             <img
               src={require("../assets/Projects image/FireShot Capture 070 - Custom Calculator - .png")}
+              alt="img"
             />
           </SwiperSlide>
         </Swiper>
@@ -651,11 +727,13 @@ function Projects() {
           <SwiperSlide className="swiperrr-slidey ">
             <img
               src={require("../assets/Projects image/FireShot Capture 072 - React App - localhost.png")}
+              alt="img"
             />
           </SwiperSlide>
           <SwiperSlide className="swiperrr-slidey ">
             <img
               src={require("../assets/Projects image/FireShot Capture 073 - React App - localhost.png")}
+              alt="img"
             />
           </SwiperSlide>
         </Swiper>
@@ -673,6 +751,7 @@ function Projects() {
             <a
               href="https://custom-calculator-sigma.vercel.app/"
               target="_blank"
+              rel="noreferrer"
               className="text-xl lg:text-2xl"
             >
               <FontAwesomeIcon icon={faLink} className="dark:text-[#fff]" />
@@ -680,6 +759,7 @@ function Projects() {
             <a
               href="https://github.com/mosimiDev/Custom-calculator"
               target="_blank"
+              rel="noreferrer"
               className="text-xl lg:text-2xl"
             >
               <FontAwesomeIcon
@@ -701,6 +781,7 @@ function Projects() {
             <a
               href="https://loan-calculator-94q2.vercel.app/"
               target="_blank"
+              rel="noreferrer"
               className="text-xl lg:text-2xl"
             >
               <FontAwesomeIcon icon={faLink} className="dark:text-[#fff]" />
@@ -708,6 +789,7 @@ function Projects() {
             <a
               href="https://github.com/mosimiDev/Loan-Calculator"
               target="_blank"
+              rel="noreferrer"
               className="text-xl lg:text-2xl"
             >
               <FontAwesomeIcon
@@ -739,19 +821,25 @@ function Projects() {
         <SwiperSlide className="swiperrr-slide ">
           <img
             src={require("../assets/Projects image/FireShot Capture 074 - React App - localhost.png")}
+            alt="img"
           />
         </SwiperSlide>
         <SwiperSlide className="swiperrr-slide ">
-          <img src={require("../assets/Projects image/Screenshot (28).png")} />
+          <img
+            src={require("../assets/Projects image/Screenshot (28).png")}
+            alt="img"
+          />
         </SwiperSlide>
         <SwiperSlide className="swiperrr-slide ">
           <img
             src={require("../assets/Projects image/FireShot Capture 076 - React App - localhost.png")}
+            alt="img"
           />
         </SwiperSlide>
         <SwiperSlide className="swiperrr-slide ">
           <img
             src={require("../assets/Projects image/FireShot Capture 077 - React App - localhost.png")}
+            alt="img"
           />
         </SwiperSlide>
       </Swiper>
@@ -766,6 +854,7 @@ function Projects() {
           <a
             href="https://weather-forecast-app-e7fo-1p3cglb96-mosimidev.vercel.app/"
             target="_blank"
+            rel="noreferrer"
             className="text-xl lg:text-2xl"
           >
             <FontAwesomeIcon icon={faLink} className="dark:text-[#fff]" />
@@ -773,6 +862,7 @@ function Projects() {
           <a
             href="https://github.com/mosimiDev/weather-forecast-app"
             target="_blank"
+            rel="noreferrer"
             className="text-xl lg:text-2xl"
           >
             <FontAwesomeIcon

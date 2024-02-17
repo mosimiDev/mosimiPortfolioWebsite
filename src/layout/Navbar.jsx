@@ -52,13 +52,7 @@ function Navbar() {
         />
       </div>
       <ul className={clicked ? "#myList active" : "#myList"} id="myList">
-        <Link
-          smooth
-          to={"#home"}
-          className="w-20 mx-auto text-white   font-SFproMedium text-md lg:text-xl "
-        >
-          Home
-        </Link>
+        
         <hr className="text-white mx-auto w-32  lg:hidden " />
         <Link
           smooth
