@@ -10,13 +10,13 @@ import { faHtml5 } from "@fortawesome/free-brands-svg-icons";
 import { faAngular } from "@fortawesome/free-brands-svg-icons";
 import { faSplotch } from "@fortawesome/free-solid-svg-icons";
 import { HashLink as Link } from "react-router-hash-link";
-import { gsap } from "gsap/gsap-core";
-import { ScrollTrigger } from "gsap/ScrollTrigger";
+// import { gsap } from "gsap/gsap-core";
+// import { ScrollTrigger } from "gsap/ScrollTrigger";
 
 
 function About() {
 
-gsap.registerPlugin(ScrollTrigger); 
+// gsap.registerPlugin(ScrollTrigger); 
   // let tl = gsap.timeline();
   // let about = document.getElementById("about");
 

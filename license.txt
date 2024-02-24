@@ -1,0 +1,11 @@
+Model Information:
+* title:	Triplet Structure
+* source:	https://sketchfab.com/3d-models/triplet-structure-f0a0bb31474748c8bb933a98656a60e2
+* author:	ayvlasov (https://sketchfab.com/ayvlasov)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Triplet Structure" (https://sketchfab.com/3d-models/triplet-structure-f0a0bb31474748c8bb933a98656a60e2) by ayvlasov (https://sketchfab.com/ayvlasov) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)

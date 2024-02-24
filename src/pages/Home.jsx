@@ -6,7 +6,6 @@ import { faLinkedin } from "@fortawesome/free-brands-svg-icons";
 import { faSquareGithub } from "@fortawesome/free-brands-svg-icons";
 import { HashLink as Link } from "react-router-hash-link";
 import Navbar from "../layout/Navbar";
-import WebgiViewer from "../layout/WebgiViewer";
 
 function Home() {
   // const webgiRef = useRef(null);
@@ -16,11 +15,7 @@ function Home() {
       {/* Home Layout */}
       <div className="flex ">
         <div>
-          <img
-            src={require("../assets/IMG_1890.png")}
-            alt="img"
-            // className="w-4/5 h-60 lg:w-64 pt-4 mt-5 lg:pt-1 lg:h-64 object-cover object-center mx-auto  rounded-full overflow-hidden"
-          />
+          what to dooooo
         </div>
         <div className="grid  w-3/4 lg:w-1/2 mx-12 md:mx-auto  place-items-center my-4 lg:my-12 ">
           {/* <WebgiViewer /> */}
