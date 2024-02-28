@@ -15,7 +15,7 @@ function Home() {
       {/* Home Layout */}
       <div className="flex ">
         <div>
-          what to dooooo
+          {/* what to dooooo */}
         </div>
         <div className="grid  w-3/4 lg:w-1/2 mx-12 md:mx-auto  place-items-center my-4 lg:my-12 ">
           {/* <WebgiViewer /> */}
