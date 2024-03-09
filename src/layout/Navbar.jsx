@@ -52,12 +52,11 @@ function Navbar() {
         />
       </div>
       <ul className={clicked ? "#myList active" : "#myList"} id="myList">
-        
         <hr className="text-white mx-auto w-32  lg:hidden " />
         <Link
           smooth
           to={"#about"}
-          className="w-20 mx-auto  text-white font-SFproMedium text-md lg:text-xl "
+          className="w-20 mx-auto  text-white font-SFproMedium text-md lg:text-xl hover:text-[#58FFF5]"
         >
           About
         </Link>
@@ -65,7 +64,7 @@ function Navbar() {
         <Link
           smooth
           to={"#projects"}
-          className="w-20 mx-auto text-white font-SFproMedium text-md lg:text-xl "
+          className="w-20 mx-auto text-white font-SFproMedium text-md lg:text-xl hover:text-[#58FFF5]"
         >
           Projects
         </Link>
@@ -73,7 +72,7 @@ function Navbar() {
         <Link
           smooth
           to={"#experience"}
-          className="w-20 mx-auto text-white font-SFproMedium text-md lg:text-xl "
+          className="w-20 mx-auto text-white font-SFproMedium text-md lg:text-xl hover:text-[#58FFF5]"
         >
           Experience
         </Link>
@@ -81,7 +80,7 @@ function Navbar() {
         <Link
           smooth
           to={"#contact"}
-          className="w-20 mx-auto text-white font-SFproMedium text-md lg:text-xl "
+          className="w-20 mx-auto text-white font-SFproMedium text-md lg:text-xl hover:text-[#58FFF5]"
         >
           Contact
         </Link>

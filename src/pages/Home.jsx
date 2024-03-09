@@ -6,6 +6,7 @@ import { faLinkedin } from "@fortawesome/free-brands-svg-icons";
 import { faSquareGithub } from "@fortawesome/free-brands-svg-icons";
 import { HashLink as Link } from "react-router-hash-link";
 import Navbar from "../layout/Navbar";
+import "./Home.css";
 
 function Home() {
   // const webgiRef = useRef(null);
@@ -13,17 +14,14 @@ function Home() {
     <div id="home" className="w-screen bg-yellow-300 h-screen dark:bg-[#000]">
       <Navbar />
       {/* Home Layout */}
-      <div className="flex ">
-        <div>
-          {/* what to dooooo */}
-        </div>
-        <div className="grid  w-3/4 lg:w-1/2 mx-12 md:mx-auto  place-items-center my-4 lg:my-12 ">
+      <div className="flex mt-6 ">
+        <div className="relative left-[1rem]  lg:left-[20rem] grid h-40  w-1/4 lg:w-1/2 pt-32   lg:pt-36 md:mx-auto  place-items-center my-4 lg:my-12 ">
           {/* <WebgiViewer /> */}
 
-          <div className=" font-SFproBold mx-auto text-md md:text-4xl md:tracking-wide text-white my-0 py-0  text-center">
-            Hi, I am Mosimi
+          <div className=" font-SFproBold mx-auto text-md md:text-4xl md:tracking-wide text-white my-0 py-0 text-center">
+            Hi, I am <span className="text-[#58FFF5]">Mosimi</span>
           </div>
-          <div className=" font-SFproLight  text-md md:text-2xl md:w-[38rem] tracking-wide w-40 text-white mx-auto my-0 py-0  text-center dark:bg-[#fff]">
+          <div className=" font-SFproLight  text-md md:text-2xl md:w-[38rem] tracking-wide w-40 text-white mx-auto my-1 lg:my-4 py-0  text-center dark:bg-[#fff]">
             I am a frontend engineer and a creative bringing ideas to life and
             helping companies achieve their creative goals
           </div>
@@ -61,6 +59,7 @@ function Home() {
             </Link>
           </div>
         </div>
+        <div id="bg-img">{/* what to dooooo */}</div>
       </div>
 
       {/* Scroll down Layout */}

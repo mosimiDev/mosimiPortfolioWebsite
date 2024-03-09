@@ -30,14 +30,15 @@ const DarkMode = () => {
   return (
     <div>
       <button
-        className="w-38 mx-8 lg:mx-2 mb-4 p-1 px-2 text-[#fff] rounded-3xl dark:bg-[#58FFF5] bg-[#58FFF5] transition ease-in-out delay-75 duration-200"
+        className="w-38 mx-8 lg:mx-2 mb-4 p-1 px-4 text-[#fff] rounded-3xl dark:bg-[#58FFF5] bg-[#58FFF5] transition ease-in-out delay-75 duration-200"
         onClick={handleThemeSwitch}
       >
-        <FontAwesomeIcon
+        {/* <FontAwesomeIcon
           icon={clicked ? faSun : faMoon}
           className="mx-2 text-xl"
         />
-        {clicked ? "Light Mode" : "Dark Mode"}
+        {clicked ? "Light Mode" : "Dark Mode"} */}
+        Writer Portfolio
       </button>
     </div>
   );

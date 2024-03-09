@@ -1,0 +1,18 @@
+/* For mobile: */
+#bg-img{
+ width: 70%;
+ height: 85vh;
+ background-image: url(../assets/IMG_1892.jpg);
+ background-size: cover;
+ background-position: center;
+  margin-right: 5px;
+}
+
+@media only screen and (min-width: 768px) {
+  /* For desktop: */
+  #bg-img {
+   width: 100%;
+   margin-right: 80px;
+  }
+  
+}
