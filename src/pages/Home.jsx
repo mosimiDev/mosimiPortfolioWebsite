@@ -7,21 +7,28 @@ import { faSquareGithub } from "@fortawesome/free-brands-svg-icons";
 import { HashLink as Link } from "react-router-hash-link";
 import Navbar from "../layout/Navbar";
 import "./Home.css";
+import { gsap } from "gsap/gsap-core";
+import { ScrollTrigger } from "gsap/ScrollTrigger";
 
 function Home() {
-  // const webgiRef = useRef(null);
+  let image = document.getElementById("bg-img");
+
+  gsap.from("text", { x: 200,opacity: 0, duration: 1, delay: 2 });
+
   return (
     <div id="home" className="w-screen bg-yellow-300 h-screen dark:bg-[#000]">
       <Navbar />
       {/* Home Layout */}
-      <div className="flex mt-6 ">
-        <div className="relative left-[1rem]  lg:left-[20rem] grid h-40  w-1/4 lg:w-1/2 pt-32   lg:pt-36 md:mx-auto  place-items-center my-4 lg:my-12 ">
-          {/* <WebgiViewer /> */}
-
+      <div className="flex mt-2 lg:mt-6 ">
+        {/* Text section */}
+        <div
+          className="relative left-[1rem] md:left-[4rem]   lg:left-[20rem] grid h-52  w-1/4 md:w-1/5 lg:w-1/2 pt-20 md:pt-40   lg:pt-36 md:mx-auto  place-items-center my-4 lg:my-12 "
+          id="text"
+        >
           <div className=" font-SFproBold mx-auto text-md md:text-4xl md:tracking-wide text-white my-0 py-0 text-center">
             Hi, I am <span className="text-[#58FFF5]">Mosimi</span>
           </div>
-          <div className=" font-SFproLight  text-md md:text-2xl md:w-[38rem] tracking-wide w-40 text-white mx-auto my-1 lg:my-4 py-0  text-center dark:bg-[#fff]">
+          <div className=" font-SFproLight  text-md md:text-2xl md:w-[20rem] tracking-wide w-40  lg:w-[40rem] text-white mx-auto my-1 lg:my-4 py-0  text-center dark:bg-[#fff]">
             I am a frontend engineer and a creative bringing ideas to life and
             helping companies achieve their creative goals
           </div>

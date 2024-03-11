@@ -29,9 +29,10 @@ const DarkMode = () => {
   };
   return (
     <div>
-      <button
+      <a
         className="w-38 mx-8 lg:mx-2 mb-4 p-1 px-4 text-[#fff] rounded-3xl dark:bg-[#58FFF5] bg-[#58FFF5] transition ease-in-out delay-75 duration-200"
-        onClick={handleThemeSwitch}
+        href="https://www.notion.so/Mosimi-Akinlabi-c1e4dd3492b64b74b821eba2cca3b271"
+        target="_blank"
       >
         {/* <FontAwesomeIcon
           icon={clicked ? faSun : faMoon}
@@ -39,7 +40,7 @@ const DarkMode = () => {
         />
         {clicked ? "Light Mode" : "Dark Mode"} */}
         Writer Portfolio
-      </button>
+      </a>
     </div>
   );
 };

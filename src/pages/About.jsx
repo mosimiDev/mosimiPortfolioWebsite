@@ -116,7 +116,7 @@ function About() {
           </div>
           <div className="w-11/12 mx-auto p-6  lg:w-2/3 lg:h-[20rem] lg:p-12 bg-[#fff] shadow-xl rounded-xl">
             <p className="font-SFproLight text-md lg:text-xl mb-2">
-              Mosimi Akinlabi is a Mobile and Web Frontend Engineer. I love
+              I am Mosimi, a Mobile and Web Frontend Engineer. I love
               creating UI for mobile applications and websites with creative
               interfaces while ensuring that the product's aim is well
               communicated to its users.
@@ -214,10 +214,6 @@ function About() {
         <div className="flex gap-3 ml-12 text-xl"  >
           <FontAwesomeIcon icon={faReact} className="dark:text-[#fff]" />
           <p className="tracking-wide text-md dark:text-[#fff]">React-Redux</p>
-        </div>
-        <div className="flex gap-3 ml-12 text-xl"  >
-          <FontAwesomeIcon icon={faAngular} className="dark:text-[#fff]" />
-          <p className="tracking-wide text-md dark:text-[#fff]">Angular</p>
         </div>
         <div className="flex gap-3 ml-12 text-xl"  >
           <FontAwesomeIcon icon={faSplotch} className="dark:text-[#fff]" />
