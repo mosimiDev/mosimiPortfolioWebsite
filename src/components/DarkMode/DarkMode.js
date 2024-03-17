@@ -34,11 +34,7 @@ const DarkMode = () => {
         href="https://www.notion.so/Mosimi-Akinlabi-c1e4dd3492b64b74b821eba2cca3b271"
         target="_blank"
       >
-        {/* <FontAwesomeIcon
-          icon={clicked ? faSun : faMoon}
-          className="mx-2 text-xl"
-        />
-        {clicked ? "Light Mode" : "Dark Mode"} */}
+        
         Writer Portfolio
       </a>
     </div>
@@ -46,9 +42,4 @@ const DarkMode = () => {
 };
 
 export default DarkMode;
-
-//  <FontAwesomeIcon icon={clicked? faMoon:faSun} />
-//             Dark Mode
-
-// 
 

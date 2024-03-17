@@ -7,16 +7,38 @@ import { faSquareGithub } from "@fortawesome/free-brands-svg-icons";
 import { HashLink as Link } from "react-router-hash-link";
 import Navbar from "../layout/Navbar";
 import "./Home.css";
-import { gsap } from "gsap/gsap-core";
-import { ScrollTrigger } from "gsap/ScrollTrigger";
+import gsap from "gsap";
+import { useGSAP } from "@gsap/react";
+
+gsap.registerPlugin(useGSAP);
 
 function Home() {
-  let image = document.getElementById("bg-img");
+  const container = useRef();
+  const image = useRef();
+  const textsection = useRef();
 
-  gsap.from("text", { x: 200,opacity: 0, duration: 1, delay: 2 });
+  useGSAP(
+    () => {
+      gsap.from(image.current,
+        {
+          x: "200",
+          duration: 1,
+          opacity: "0.5",
+          ease:"power1.in",
+        });
+    },
+    gsap.from(textsection.current, {
+      opacity: "0",
+    }),
+    { scope: container }
+  );
 
   return (
-    <div id="home" className="w-screen bg-yellow-300 h-screen dark:bg-[#000]">
+    <div
+      id="home"
+      className=" w-screen bg-yellow-300 h-screen dark:bg-[#000]"
+      ref={container}
+    >
       <Navbar />
       {/* Home Layout */}
       <div className="flex mt-2 lg:mt-6 ">
@@ -24,6 +46,7 @@ function Home() {
         <div
           className="relative left-[1rem] md:left-[4rem]   lg:left-[20rem] grid h-52  w-1/4 md:w-1/5 lg:w-1/2 pt-20 md:pt-40   lg:pt-36 md:mx-auto  place-items-center my-4 lg:my-12 "
           id="text"
+          ref={textsection}
         >
           <div className=" font-SFproBold mx-auto text-md md:text-4xl md:tracking-wide text-white my-0 py-0 text-center">
             Hi, I am <span className="text-[#58FFF5]">Mosimi</span>
@@ -66,22 +89,8 @@ function Home() {
             </Link>
           </div>
         </div>
-        <div id="bg-img">{/* what to dooooo */}</div>
+        <div id="bg-img" ref={image}></div>
       </div>
-
-      {/* Scroll down Layout */}
-      {/* <div className="grid place-items-center pt-10 md:pt-20 text-center">
-        <Link smooth to={"#about"}>
-          <FontAwesomeIcon
-            icon={faAnglesDown}
-            bounce
-            className="text-white text-xl md:text-2xl mx-12 "
-          />
-          <p className="pt-2 text-white font-SFproMedium text-md md:text-xl mx-2">
-            Scroll Down
-          </p>
-        </Link>
-      </div> */}
     </div>
   );
 }
