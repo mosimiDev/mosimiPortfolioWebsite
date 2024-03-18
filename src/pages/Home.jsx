@@ -44,7 +44,7 @@ function Home() {
       <div className="flex mt-2 lg:mt-6 ">
         {/* Text section */}
         <div
-          className="relative left-[1rem] md:left-[4rem]   lg:left-[20rem] grid h-52  w-1/4 md:w-1/5 lg:w-1/2 pt-20 md:pt-40   lg:pt-36 md:mx-auto  place-items-center my-4 lg:my-12 "
+          className="relative left-[1rem] md:left-[4rem]   lg:left-[20rem] grid h-52  w-1/4 md:w-1/5 lg:w-1/2 pt-20 md:pt-40   lg:pt-36 md:mx-auto  place-items-center my-4 lg:my-12 z-[100]"
           id="text"
           ref={textsection}
         >
