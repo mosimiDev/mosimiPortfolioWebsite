@@ -6,6 +6,10 @@ import { faLinkedin } from "@fortawesome/free-brands-svg-icons";
 import { faSquareGithub } from "@fortawesome/free-brands-svg-icons";
 import { HashLink as Link } from "react-router-hash-link";
 import Navbar from "../layout/Navbar";
+import About from "./About";
+import Experience from "./Experience";
+import Projects from "./Projects";
+import Contact from "./Contact";
 import "./Home.css";
 import gsap from "gsap";
 import { useGSAP } from "@gsap/react";
@@ -35,7 +39,7 @@ function Home() {
 
   return (
     <div
-      id="home"
+      id="/"
       className=" w-screen bg-yellow-300 h-screen dark:bg-[#000]"
       ref={container}
     >
@@ -91,6 +95,11 @@ function Home() {
         </div>
         <div id="bg-img" ref={image}></div>
       </div>
+
+      <About />
+      <Experience />
+      <Projects />
+      <Contact />
     </div>
   );
 }

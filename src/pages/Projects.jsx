@@ -9,8 +9,17 @@ import "swiper/css/pagination";
 import "swiper/css/navigation";
 import { Autoplay, Pagination, Navigation, EffectCoverflow } from "swiper";
 import "./Projects.css";
+import { useNavigate, Routes, Route, NavLink } from "react-router-dom";
+import Blog from "../components/Blog/Blog";
 
 function Projects() {
+
+  const navigate = useNavigate();
+
+  const navigateToBlog = () => {
+    navigate("/blog", { replace: true });
+  };
+
   const progressCircle = useRef(null);
   const progressContent = useRef(null);
   const onAutoplayTimeLeft = (s, time, progress) => {
@@ -102,13 +111,13 @@ function Projects() {
       </div>
 
       <div className="w-48 mx-auto">
-        <a
-          href="https://www.notion.so/Mosimi-Akinlabi-c1e4dd3492b64b74b821eba2cca3b271"
+        <button
+          onClick={navigateToBlog}
           target="_blank"
           className="w-44 mx-auto mb-32 p-2 px-4 text-[#fff] rounded-3xl  bg-yellow-300 transition ease-in-out delay-75 duration-200 "
         >
           See More
-        </a>
+        </button>
       </div>
 
       {/* Swiperrr section */}
@@ -526,6 +535,9 @@ function Projects() {
           {/* End of icon section */}
         </div>
       </div>
+      <Routes>
+        <Route path="/blog" element={<Blog />} />
+      </Routes>
     </div>
   );
 }
