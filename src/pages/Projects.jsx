@@ -428,7 +428,168 @@ function Projects() {
             />
           </SwiperSlide>
         </Swiper>
-        {/* Application two */}
+
+        <div className="mt-40">
+          {/* Application two */}
+          <Swiper
+            effect={"coverflow"}
+            grabCursor={true}
+            centeredSlides={true}
+            slidesPerView={"auto"}
+            coverflowEffect={{
+              rotate: 50,
+              stretch: 0,
+              depth: 100,
+              modifier: 1,
+              slideShadows: true,
+            }}
+            pagination={true}
+            modules={[EffectCoverflow, Pagination]}
+            className="mySwiperrr "
+          >
+            <SwiperSlide className="swiperrr-slide ">
+              <img
+                src={require("../assets/Projects image/IMG_3607.PNG")}
+                alt="img"
+              />
+            </SwiperSlide>
+            <SwiperSlide className="swiperrr-slide ">
+              <img
+                src={require("../assets/Projects image/IMG_3608.PNG")}
+                alt="img"
+              />
+            </SwiperSlide>
+            <SwiperSlide className="swiperrr-slide ">
+              <img
+                src={require("../assets/Projects image/IMG_3609.PNG")}
+                alt="img"
+              />
+            </SwiperSlide>
+            <SwiperSlide className="swiperrr-slide ">
+              <img
+                src={require("../assets/Projects image/IMG_3610.PNG")}
+                alt="img"
+              />
+            </SwiperSlide>
+            <SwiperSlide className="swiperrr-slide ">
+              <img
+                src={require("../assets/Projects image/IMG_3611.PNG")}
+                alt="img"
+              />
+            </SwiperSlide>
+            <SwiperSlide className="swiperrr-slide ">
+              <img
+                src={require("../assets/Projects image/IMG_3612.PNG")}
+                alt="img"
+              />
+            </SwiperSlide>
+            <SwiperSlide className="swiperrr-slide ">
+              <img
+                src={require("../assets/Projects image/IMG_3613.PNG")}
+                alt="img"
+              />
+            </SwiperSlide>
+            <SwiperSlide className="swiperrr-slide ">
+              <img
+                src={require("../assets/Projects image/IMG_3614.PNG")}
+                alt="img"
+              />
+            </SwiperSlide>
+            <SwiperSlide className="swiperrr-slide">
+              <img
+                src={require("../assets/Projects image/IMG_3615.PNG")}
+                alt="img"
+              />
+            </SwiperSlide>
+            <SwiperSlide className="swiperrr-slide">
+              <img
+                src={require("../assets/Projects image/IMG_3616.PNG")}
+                alt="img"
+              />
+            </SwiperSlide>
+            <SwiperSlide className="swiperrr-slide">
+              <img
+                src={require("../assets/Projects image/IMG_3617.PNG")}
+                alt="img"
+              />
+            </SwiperSlide>
+            <SwiperSlide className="swiperrr-slide">
+              <img
+                src={require("../assets/Projects image/IMG_3618.PNG")}
+                alt="img"
+              />
+            </SwiperSlide>
+          </Swiper>
+        </div>
+      </div>
+
+      {/* Project description section */}
+      <div className="relative xl:flex xl:gap-5 xl:w-full mb-12 ">
+        {/* project description 1  */}
+        <div className="absolute bottom-[47rem] xl:bottom-[0rem] xl:top-[0.5rem]  w-72 md:w-[26rem] lg:w-[28rem] md:mx-52 lg:mx-96 xl:mx-[5rem]  mx-auto z-20  ">
+          <p className="font-SFproLight text-md lg:text-xl font-bold my-2 mx-5 dark:text-[#fff]">
+            ISLAND MICROFINANCE BANK application is built with React Native,
+            Typescript,React-Redux, TailwindCSS and Material UI Framework.
+          </p>
+          {/* Icons section */}
+          <div className="flex gap-5 w-20 mx-auto ">
+            <a
+              href="https://expo.dev/accounts/mosimi/projects/islandmfb-rn/updates/25782119-832e-44d7-ad24-4e708990f450"
+              target="_blank"
+              rel="noreferrer"
+              className="text-xl lg:text-2xl"
+            >
+              <FontAwesomeIcon icon={faLink} className="dark:text-[#fff]" />
+            </a>
+            <a
+              href="https://github.com/mosimiDev/islandmfb-rn"
+              target="_blank"
+              rel="noreferrer"
+              className="text-xl lg:text-2xl"
+            >
+              <FontAwesomeIcon
+                icon={faSquareGithub}
+                className="dark:text-[#fff]"
+              />
+            </a>
+          </div>
+          {/* End of icon section */}
+        </div>
+        {/* project description 2  */}
+
+        <div className="w-72 md:w-[26rem] lg:w-[28rem] mx-auto lg:mx-96 xl:absolute xl:mx-32 xl:left-[35rem] 2xl:left-[47rem] ">
+          <p className="font-SFproLight font-bold text-md lg:text-xl my-2 mx-5 dark:text-[#fff]">
+            FOODIE is an app built with React Native, Typescript, Figma Tool,
+            and React-Redux to persist the state of the application.
+          </p>
+          {/* Icons section */}
+          <div className="flex gap-5 w-20 mx-auto ">
+            <a
+              href="https://expo.dev/accounts/mosimi/projects/foodie/updates/0869b7dd-4c5c-4551-a92a-656002b42230"
+              target="_blank"
+              rel="noreferrer"
+              className="text-xl lg:text-2xl"
+            >
+              <FontAwesomeIcon icon={faLink} className="dark:text-[#fff]" />
+            </a>
+            <a
+              href="https://github.com/mosimiDev/foodie"
+              target="_blank"
+              rel="noreferrer"
+              className="text-xl lg:text-2xl"
+            >
+              <FontAwesomeIcon
+                icon={faSquareGithub}
+                className="dark:text-[#fff]"
+              />
+            </a>
+          </div>
+          {/* End of icon section */}
+        </div>
+      </div>
+
+      <div className="xl:flex relative">
+        {/* Application three */}
         <Swiper
           effect={"coverflow"}
           grabCursor={true}
@@ -472,69 +633,37 @@ function Projects() {
         </Swiper>
       </div>
       {/* Project description section */}
-      <div className="relative xl:flex xl:gap-5 xl:w-full mb-32 ">
-        {/* project description 1  */}
-        <div className="absolute bottom-[39rem] xl:bottom-[0rem] xl:top-[0.5rem]  w-72 md:w-[26rem] lg:w-[28rem] md:mx-52 lg:mx-96 xl:mx-[5rem]  mx-auto z-20 ">
-          <p className="font-SFproLight text-md lg:text-xl font-bold my-2 mx-5 dark:text-[#fff]">
-            ISLAND MICROFINANCE BANK application is built with React Native,
-            Typescript,React-Redux, TailwindCSS and Material UI Framework.
-          </p>
-          {/* Icons section */}
-          <div className="flex gap-5 w-20 mx-auto ">
-            <a
-              href="https://github.com/mosimiDev/islandmfb-rn"
-              target="_blank"
-              rel="noreferrer"
-              className="text-xl lg:text-2xl"
-            >
-              <FontAwesomeIcon icon={faLink} className="dark:text-[#fff]" />
-            </a>
-            <a
-              href="https://github.com/mosimiDev/islandmfb-rn"
-              target="_blank"
-              rel="noreferrer"
-              className="text-xl lg:text-2xl"
-            >
-              <FontAwesomeIcon
-                icon={faSquareGithub}
-                className="dark:text-[#fff]"
-              />
-            </a>
-          </div>
-          {/* End of icon section */}
-        </div>
-        {/* project description 2  */}
 
-        <div className="w-72 md:w-[26rem] lg:w-[28rem] mx-auto lg:mx-96 xl:absolute xl:mx-32 xl:left-[35rem] 2xl:left-[47rem] ">
-          <p className="font-SFproLight font-bold text-md lg:text-xl my-2 mx-5 dark:text-[#fff]">
-            WEATHER FORECAST is an app built with Typescript, Figma Tool,
-            ReactJS, TailwindCSS and Material UI Framework.
-          </p>
-          {/* Icons section */}
-          <div className="flex gap-5 w-20 mx-auto ">
-            <a
-              href="https://weather-forecast-app-e7fo-1p3cglb96-mosimidev.vercel.app/"
-              target="_blank"
-              rel="noreferrer"
-              className="text-xl lg:text-2xl"
-            >
-              <FontAwesomeIcon icon={faLink} className="dark:text-[#fff]" />
-            </a>
-            <a
-              href="https://github.com/mosimiDev/weather-forecast-app"
-              target="_blank"
-              rel="noreferrer"
-              className="text-xl lg:text-2xl"
-            >
-              <FontAwesomeIcon
-                icon={faSquareGithub}
-                className="dark:text-[#fff]"
-              />
-            </a>
-          </div>
-          {/* End of icon section */}
+      <div className="w-72 md:w-[26rem] lg:w-[28rem] mx-auto lg:mx-96 xl:absolute xl:mx-32 xl:left-[35rem] 2xl:left-[47rem] ">
+        <p className="font-SFproLight font-bold text-md lg:text-xl my-2 mx-5 dark:text-[#fff]">
+          WEATHER FORECAST is an app built with Typescript, Figma Tool, ReactJS,
+          TailwindCSS and Material UI Framework.
+        </p>
+        {/* Icons section */}
+        <div className="flex gap-5 w-20 mx-auto ">
+          <a
+            href="https://weather-forecast-app-e7fo-1p3cglb96-mosimidev.vercel.app/"
+            target="_blank"
+            rel="noreferrer"
+            className="text-xl lg:text-2xl"
+          >
+            <FontAwesomeIcon icon={faLink} className="dark:text-[#fff]" />
+          </a>
+          <a
+            href="https://github.com/mosimiDev/weather-forecast-app"
+            target="_blank"
+            rel="noreferrer"
+            className="text-xl lg:text-2xl"
+          >
+            <FontAwesomeIcon
+              icon={faSquareGithub}
+              className="dark:text-[#fff]"
+            />
+          </a>
         </div>
+        {/* End of icon section */}
       </div>
+
       <Routes>
         <Route path="/blog" element={<Blog />} />
       </Routes>

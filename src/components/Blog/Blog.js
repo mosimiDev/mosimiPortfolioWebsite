@@ -1,5 +1,5 @@
-import React from "react";
-import { useState, useEffect } from "react";
+import React, { useState, useEffect } from "react";
+
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 import { faUser } from "@fortawesome/free-solid-svg-icons";
@@ -31,7 +31,7 @@ const Blog = () => {
     };
 
     return (
-      <div id="blog w-screen h-screen">
+      <div id="blog w-screen h-screen pb-8">
         <nav className="flex pt-6 justify-between w-screen  bg-[#000]">
           <div className=" md:mx-6">
             <a
@@ -94,7 +94,7 @@ const Blog = () => {
           </div>
           {/*End of Tabs Div */}
           {/* Body */}
-          <div>
+          <div className="pb-40">
             {items.map((item) => (
               <Blogcard
                 key={item.id}

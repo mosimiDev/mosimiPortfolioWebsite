@@ -85,7 +85,8 @@ export const BlogItems = [
   {
     id: 7,
     title: "Props in React(simplified)",
-    description: "Props is a great tool in React. This document intends to help its readers understand the concept of Props with the use of  code examples and demonstrations. The approach adopted here is the use of  code examples to help readers follow along step by step to understand what props do ",
+    description:
+      "Props is a great tool in React. This document intends to help its readers understand the concept of Props with the use of  code examples and demonstrations. The approach adopted here is the use of  code examples to help readers follow along step by step to understand what props do ",
     platform: "medium",
     date: "Apr 3, 2023",
     link: "https://medium.com/@MosimiDev/props-in-react-simplified-c4384acce962",
@@ -97,7 +98,8 @@ export const BlogItems = [
   {
     id: 8,
     title: "useEffect Simplified",
-    description: "This article aims to simplify the concept of useEffect in react.It is aimed at beginners and experienced programmers. It helps the readers understand what useEffect do with code examples that carry them along with step by step demonstrations",
+    description:
+      "This article aims to simplify the concept of useEffect in react.It is aimed at beginners and experienced programmers. It helps the readers understand what useEffect do with code examples that carry them along with step by step demonstrations",
     platform: "medium",
     date: "Feb 25, 2023",
     link: "https://medium.com/@MosimiDev/use-effect-simplified-hooks-in-react-932e10d9b902",
@@ -110,7 +112,8 @@ export const BlogItems = [
     id: 9,
     title:
       "How to Replace a Single-Page Application with a Different Page in React Router Dom",
-    description: "This ia tutorial based article. It shows readers how to navigate to different page from a single page application using react router dom. The approach adopted here is using code examples to show readers how it is done. This article is aimed at beginners and experienced programmers ",
+    description:
+      "This ia tutorial based article. It shows readers how to navigate to different page from a single page application using react router dom. The approach adopted here is using code examples to show readers how it is done. This article is aimed at beginners and experienced programmers ",
     platform: "dev.to",
     date: "Feb 23, 2024",
     link: "https://dev.to/mosimidev/how-to-replace-a-single-page-application-with-a-different-page-in-react-router-2f84",
@@ -122,7 +125,8 @@ export const BlogItems = [
   {
     id: 10,
     title: "Regular CSS or Tailwind CSS",
-    description: "This article is intended to expose readers to the pro and con of tailwindcss. It is aimed at beginners and experienced programmers.",
+    description:
+      "This article is intended to expose readers to the pro and con of tailwindcss. It is aimed at beginners and experienced programmers.",
     platform: "medium",
     date: "Aug 18, 2022",
     link: "https://medium.com/@MosimiDev/regular-css-or-tailwind-css-5a11b7771539",
@@ -135,12 +139,40 @@ export const BlogItems = [
     id: 11,
     title:
       "Five common challenges every first-time remote worker faces and how to tackle them",
-    description: "This article intends to enlighten readers on the challenges that comes with working remotely and hacks on how to deal with these challenges. It is aimed at laymen, professionals and creatives that are dominant in the remote working space.",
+    description:
+      "This article intends to enlighten readers on the challenges that comes with working remotely and hacks on how to deal with these challenges. It is aimed at laymen, professionals and creatives that are dominant in the remote working space.",
     platform: "medium",
     date: "Nov 16, 2023",
     link: "https://medium.com/@MosimiDev/5-common-challenges-every-first-time-remote-worker-faces-and-how-to-tackle-them-d65fa08db776",
     markdownlink:
       "https://docs.google.com/document/d/e/2PACX-1vQl2B_rgwtktKFlmouY7Q75G_kAGUKkoefNLKEZk9It-22lnfwfti6I28FhRPSI2_UGFk-IH3D9Z_Yj/pub",
+    markdowntext: "raw Markdown file",
+    category: "content-writing",
+  },
+  {
+    id: 12,
+    title: "Artificial Intelligence Act: The Effect On Legal Space",
+    description:
+      "Using the apastyle style grammar guideline this article provides an overview into the key changes the European Union Artifical Intelligence Act has implemented, the impact of the Act on the legal space and how lawyers have addressed the changes made by the AI Act",
+    platform: "lawglobalhub",
+    date: "May 15, 2024",
+    link: "https://www.lawglobalhub.com/artificial-intelligence-act-effect-on-legal-space-mosimi/",
+    markdownlink:
+      "https://docs.google.com/document/d/e/2PACX-1vRv5QqViG0xNGY6vahMmztTYZQ_0pwhQ3mSA4ALp9Bl9JFGzGOLHxh2_nT0073f0OsuyHiYgPfDhUNH/pub",
+    markdowntext: "raw Markdown file",
+    category: "legal-writing",
+  },
+  {
+    id: 13,
+    title:
+      "Keeping up with the fashionistas: What's new in the faculty's fashionverse",
+    description:
+      "This is a clothing brand unveiling article. A team of brilliant writers and myself put together the work of putting spotlight on the brand, D89T. Interviews were conducted with the brand owner and customers of the brand to give readers a feel of what it would feel like to own D89T. Models in the brand's outfit are also included. Readers are also given a variety of material options to pick from such as crepe, silk or cotton with a link to how they can get one for themselves.",
+    platform: "wordpress",
+    date: "Apr 10, 2024",
+    link: "https://unilaglss.wordpress.com/2024/04/10/keeping-up-with-the-fashionistas-whats-new-in-the-facultys-fashionverse/",
+    markdownlink:
+      "https://docs.google.com/document/d/e/2PACX-1vQeXzbG2ho8OBfBf7Kq3tHq-9v42_XU4cX0szkAsAEThOoQoKm04qkw59CgMnUfw4Nmiwch9zkowQC6/pub",
     markdowntext: "raw Markdown file",
     category: "content-writing",
   },

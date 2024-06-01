@@ -10,7 +10,7 @@ function Experience() {
       {/* <!-- Experiences Tab --> */}
       <div className="lg:flex w-11/12 lg:w-3/4 lg:gap-4 xl:gap-10 mx-auto ">
         {/* <!-- First tab --> */}
-        <div className="bg-yellow-300 mb-12 w-full rounded-xl shadow-4xl lg:w-96 lg:h-[107rem] ">
+        <div className="bg-yellow-300 mb-12 w-full rounded-xl shadow-4xl lg:w-96 lg:h-[160rem] ">
           {/* <!-- Icon x text div --> */}
           <div className="flex p-5 gap-3">
             {/* <!-- Icons div --> */}
@@ -21,11 +21,54 @@ function Experience() {
               <div id="vl"></div>
             </div>
             {/* <!-- Text div --> */}
-            <div>
+            <div className="w-4/5 mx-auto">
               <p className="text-[#C0C0C0] font-SFproBold">
-                Nov 2023 - Present
+                May 2024 - Present
               </p>
-              <h4 className="text-white font-SFproBold text-md">
+              <h4 className="text-white font-SFproBold text-sm lg:text-md">
+                Intern
+              </h4>
+              <span className="font-SFproItalic text-white">
+                Hilton Top Solicitors
+              </span>
+              <p className="text-white font-SFproLight text-md">
+                - learned how blockchain and law intersect and how lawyers can
+                protect the interest of their clients when smart contracts are
+                being prepared to execute a transaction
+              </p>
+              <p className="text-white font-SFproLight text-md">
+                - learned how Artificial Intelligence( AI) can make legal
+                process easy and fast
+              </p>
+              <p className="text-white font-SFproLight text-md">
+                - wrote two articles on how blockchain works hand in hand with
+                law and how smart contracts are executed
+              </p>
+              <p className="text-white font-SFproLight text-md">
+                - formed a team of writers to sensitize beginners on how
+                blockchain works
+              </p>
+              <p className="text-white font-SFproLight text-md">
+                - learned the importance of cryptography and hash functions in
+                protecting client secrets and how important it is in
+                cryptocurrency and blockchain
+              </p>
+            </div>
+          </div>
+          <div className="flex p-5 gap-3">
+            {/* <!-- Icons div --> */}
+            <div>
+              <span className="text-white">
+                <FontAwesomeIcon icon={faGraduationCap} />
+              </span>
+              <div id="vl"></div>
+            </div>
+            {/* <!-- Text div --> */}
+            <div className="w-4/5 mx-auto">
+              <p className="text-[#C0C0C0] font-SFproBold">
+                Nov 2023 - Apr 2024
+              </p>
+              <h4 className="text-white font-SFproBold text-sm lg:text-md">
                 FREELANCE MOBILE APP DEVELOPER/TECHNICAL WRITER-
               </h4>
               <span className="font-SFproItalic text-white">LSS Blog</span>
@@ -61,11 +104,11 @@ function Experience() {
               <div id="vl"></div>
             </div>
             {/* <!-- Text div --> */}
-            <div>
+            <div className="w-4/5 mx-auto">
               <p className="text-[#C0C0C0] font-SFproBold ">
                 FEB 2023 - APR 2023
               </p>
-              <h4 className="text-white font-SFproBold text-md">
+              <h4 className="text-white font-SFproBold text-sm lg:text-md">
                 FRONTEND WEB DEVELOPER-
                 <span className="font-SFproItalic">LULU, Nigeria</span>
               </h4>
@@ -102,11 +145,11 @@ function Experience() {
               <div id="vl"></div>
             </div>
             {/* <!-- Text div --> */}
-            <div>
+            <div className="w-4/5 mx-auto">
               <p className="text-[#C0C0C0] font-SFproBold ">
                 AUG 2022 - DEC 2022
               </p>
-              <h4 className="text-white font-SFproBold text-md">
+              <h4 className="text-white font-SFproBold text-sm lg:text-md">
                 FRONTEND MOBILE APP DEVELOPER-
                 <span className="font-SFproItalic">ISSL,Nigeria</span>
               </h4>
@@ -140,11 +183,9 @@ function Experience() {
               </p>
             </div>
           </div>
-          
-          
         </div>
         {/* <!-- Second tab --> */}
-        <div className="bg-yellow-300 rounded-xl shadow-4xl lg:h-[107rem] w-full  lg:w-96  ">
+        <div className="bg-yellow-300 rounded-xl shadow-4xl lg:h-[105rem] w-full  lg:w-96  ">
           <div className="text-white font-SFproBold p-4">
             Relevant Education
           </div>

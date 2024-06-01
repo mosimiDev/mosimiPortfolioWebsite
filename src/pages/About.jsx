@@ -25,7 +25,11 @@ function About() {
 
 
   return (
-    <div id="about"ref={hcontainer} className="bg-[#E0D9D9] dark:bg-[#000] p-8  w-full">
+    <div
+      id="about"
+      ref={hcontainer}
+      className="bg-[#E0D9D9] dark:bg-[#000] p-8  w-full"
+    >
       <div>
         <h3
           ref={titleRef}
@@ -47,7 +51,7 @@ function About() {
               className="w-4/5 h-60 lg:w-64 pt-4 mt-5 lg:pt-1 lg:h-64 object-cover object-center mx-auto  rounded-full overflow-hidden"
             />
           </div>
-          <div className="w-11/12 mx-auto p-6  lg:w-2/3 lg:h-[20rem] lg:p-12 bg-[#fff] shadow-xl rounded-xl">
+          <div className="w-11/12 mx-auto p-6  lg:w-2/3 lg:h-[26rem] lg:p-12 bg-[#fff] shadow-xl rounded-xl">
             <p className="font-SFproLight text-md lg:text-xl mb-2">
               I am Mosimi, a Mobile and Web Frontend Engineer. I love creating
               UI for mobile applications and websites with creative interfaces
@@ -79,96 +83,122 @@ function About() {
           </div>
         </div>
         {/* <!-- Stats div --> */}
-        <div className="flex w-full  md:w-3/4 md:mx-auto gap-1 md:gap-4 lg:mx-72 xl:mx-96 2xl:mx-[29rem]">
+        <div className="flex w-full md:w-3/4 md:mx-auto gap-1 md:gap-4 lg:mx-72 xl:mx-96 2xl:mx-[29rem] ">
           {/* <!-- First stat --> */}
           <div className="flex mx-1 gap-1 lg:mx-5 lg:gap-3 ">
             <span className="text-xl lg:text-4xl">
               <FontAwesomeIcon icon={faFire} className=" dark:text-[#fff]" />
             </span>
             <div>
-              <p className="font-bold  text-xl mx-2 lg:mx-5 dark:text-[#fff]">
+              <p className="font-bold text-sm lg:text-xl mx-2 lg:mx-5 dark:text-[#fff]">
                 20
               </p>
-              <p className="font-SFproLight  text-md  dark:text-[#fff]">
+              <p className="font-SFproLight text-sm lg:text-md  dark:text-[#fff]">
                 Projects Completed
               </p>
             </div>
           </div>
           {/* <!-- Second stat --> */}
-          <div className="flex mx-1 lg:mx-5 gap-3">
+          <div className="flex mx-1 lg:mx-5 gap-2">
             <span className="text-xl lg:text-3xl">
               <FontAwesomeIcon icon={faBuilding} className="dark:text-[#fff]" />
             </span>
             <div>
-              <p className="font-bold text-xl mx-2 lg:mx-5 dark:text-[#fff]">
+              <p className="font-bold text-sm lg:text-xl mx-2 lg:mx-5 dark:text-[#fff]">
                 2
               </p>
-              <p className="font-SFproLight text-md dark:text-[#fff]">
+              <p className="font-SFproLight text-sm lg:text-md dark:text-[#fff]">
                 Running Projects
               </p>
             </div>
           </div>
           {/* <!-- Third stat --> */}
-          <div className="flex mx-1 lg:mx-5 gap-3">
+          <div className="flex mx-1 lg:mx-5 gap-2">
             <span className=" text-xl lg:text-3xl">
               <FontAwesomeIcon icon={faUser} className="dark:text-[#fff]" />
             </span>
             <div>
-              <p className="font-bold text-xl mx-2 lg:mx-5 dark:text-[#fff]">
+              <p className="font-bold text-sm lg:text-xl mx-2 lg:mx-5 dark:text-[#fff]">
                 16
               </p>
-              <p className="font-SFproLight text-md dark:text-[#fff]">
+              <p className="font-SFproLight text-sm lg:text-md dark:text-[#fff]">
                 Satisfied Clients
               </p>
             </div>
           </div>
         </div>
-        <h4 className="text-[#000] text-xl md:tracking-wide mb-5 ml-12 mt-12 dark:text-[#fff]">
+        <h4 className="text-[#000] text-md lg:text-lg md:tracking-wide mb-5 ml-12 mt-12 dark:text-[#fff]">
           Stacks
         </h4>
-        <div className="flex gap-3 ml-12 text-xl " id="stacks" ref={stackRef}>
+        <div
+          className="flex gap-3 ml-12 text-sm lg:text-xl "
+          id="stacks"
+          ref={stackRef}
+        >
           <FontAwesomeIcon icon={faReact} className="dark:text-[#fff]" />
-          <p className="tracking-wide text-md dark:text-[#fff]">React-Native</p>
+          <p className="tracking-wide text-sm lg:text-md dark:text-[#fff]">
+            React-Native
+          </p>
         </div>
-        <div className="flex gap-3 ml-12 text-xl ">
+        <div className="flex gap-3 ml-12 text-sm lg:text-xl ">
           <FontAwesomeIcon icon={faFire} className="dark:text-[#fff]" />
-          <p className="tracking-wide text-md dark:text-[#fff]">Firebase</p>
+          <p className="tracking-wide text-sm lg:text-md    dark:text-[#fff]">
+            Firebase
+          </p>
         </div>
-        <div className="flex gap-3 ml-12 text-xl ">
+        <div className="flex gap-3 ml-12 text-sm lg:text-xl ">
           <FontAwesomeIcon icon={faReact} className="dark:text-[#fff]" />
-          <p className="tracking-wide text-md dark:text-[#fff]">ReactJS</p>
+          <p className="tracking-wide text-sm lg:text-md  dark:text-[#fff]">
+            ReactJS
+          </p>
         </div>
-        <div className="flex gap-3 ml-12 text-xl">
+        <div className="flex gap-3 ml-12 text-sm lg:text-xl">
           <FontAwesomeIcon icon={faReact} className="dark:text-[#fff]" />
-          <p className="tracking-wide text-md dark:text-[#fff]">React-Redux</p>
+          <p className="tracking-wide text-sm lg:text-md  dark:text-[#fff]">
+            React-Redux
+          </p>
         </div>
-        <div className="flex gap-3 ml-12 text-xl">
+        <div className="flex gap-3 ml-12 text-sm lg:text-xl">
           <FontAwesomeIcon icon={faSplotch} className="dark:text-[#fff]" />
-          <p className="tracking-wide text-md dark:text-[#fff]">TypeScript</p>
+          <p className="tracking-wide text-sm lg:text-md  dark:text-[#fff]">
+            TypeScript
+          </p>
         </div>
-        <div className="flex gap-3 ml-12 text-xl">
+        <div className="flex gap-3 ml-12 text-sm lg:text-xl">
           <FontAwesomeIcon icon={faSplotch} className="dark:text-[#fff]" />
-          <p className="tracking-wide text-md dark:text-[#fff]">JavaScript</p>
+          <p className="tracking-wide text-sm lg:text-md  dark:text-[#fff]">
+            JavaScript
+          </p>
         </div>
-        <div className="flex gap-3 ml-12 text-xl">
+        <div className="flex gap-3 ml-12 text-sm lg:text-xl">
           <FontAwesomeIcon icon={faFigma} className="dark:text-[#fff]" />
-          <p className="tracking-wide text-md dark:text-[#fff]">Figma Design</p>
+          <p className="tracking-wide text-sm lg:text-md  dark:text-[#fff]">
+            Figma Design
+          </p>
         </div>
-        <div className="flex gap-3 ml-12 text-xl ">
+        <div className="flex gap-3 ml-12 text-sm lg:text-xl ">
           <FontAwesomeIcon icon={faSplotch} className="dark:text-[#fff]" />
-          <p className="tracking-wide text-md dark:text-[#fff]">Material UI</p>
+          <p className="tracking-wide text-sm lg:text-md  dark:text-[#fff]">
+            Material UI
+          </p>
         </div>
-        <div className="flex gap-3 ml-12 text-xl ">
+        <div className="flex gap-3 ml-12 text-sm lg:text-xl ">
           <FontAwesomeIcon icon={faSplotch} className="dark:text-[#fff]" />
-          <p className="tracking-wide text-md dark:text-[#fff]">Tailwind CSS</p>
+          <p className="tracking-wide text-sm lg:text-md  dark:text-[#fff]">
+            Tailwind CSS
+          </p>
         </div>
-        <div className="flex gap-3 ml-12 text-xl ">
+        <div className="flex gap-3 ml-12 text-sm lg:text-xl ">
           <FontAwesomeIcon icon={faCss3} className="dark:text-[#fff]" />
-          <p className="tracking-wide text-md dark:text-[#fff]">CSS3</p>
+          <p className="tracking-wide text-sm lg:text-md  dark:text-[#fff]">
+            CSS3
+          </p>
         </div>
-        <div className="flex gap-3 ml-12 text-xl ">
+        <div className="flex gap-3 ml-12 text-sm lg:text-xl ">
           <FontAwesomeIcon icon={faHtml5} className="dark:text-[#fff]" />
-          <p className="tracking-wide text-md dark:text-[#fff]">HTML5</p>
+          <p className="tracking-wide text-sm lg:text-md  dark:text-[#fff]">
+            HTML5
+          </p>
         </div>
       </div>
     </div>

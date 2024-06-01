@@ -23,7 +23,7 @@ const Blogcard = ({title,link,markdownlink, markdowntext,description,platform,da
         {markdowntext}
       </a>
       <p className="text-gray-500 py-3">{description}</p>
-      <p className="bg-lime-600 w-16 md:w-20 border border-lime-200 rounded-md text-white  text-xs md:text-sm px-2  ml-[8rem] md:ml-[28rem] lg:ml-[42rem]">
+      <p className="bg-lime-600 w-24 mx-auto  border border-lime-200 rounded-md text-white  text-xs md:text-sm px-2  ml-[8rem] md:ml-[28rem] lg:ml-[42rem]">
         {platform}
       </p>
       <p className="text-[#000] text-xs md:text-sm text-gray-400 ml-[8rem] md:ml-[28rem] lg:ml-[42rem]">
