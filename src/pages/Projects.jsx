@@ -1,4 +1,4 @@
-import React, { useRef } from "react";
+import React, { useRef, useState } from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faSquareGithub } from "@fortawesome/free-brands-svg-icons";
 import { faArrowUpRightFromSquare } from "@fortawesome/free-solid-svg-icons";
@@ -10,9 +10,22 @@ import "swiper/css/navigation";
 import { Autoplay, Pagination, Navigation, EffectCoverflow } from "swiper";
 import "./Projects.css";
 import { useNavigate, Routes, Route, NavLink } from "react-router-dom";
-import Blog from "../components/Blog/Blog";
+import Blog from "../components/Blog/Blog/Blog";
+import Modal from "../components/Modal/Modal";
 
 function Projects() {
+  const [isModalOpen, setIsModalOpen] = useState(false);
+  const [modalContent, setModalContent] = useState(null);
+
+  const openModal = (content) => {
+     setModalContent(content);
+     setIsModalOpen(true);
+  };
+
+  const closeModal = () => {
+    setIsModalOpen(false);
+    setModalContent(null);
+  };
 
   const navigate = useNavigate();
 
@@ -114,7 +127,7 @@ function Projects() {
         <button
           onClick={navigateToBlog}
           target="_blank"
-          className="w-44 mx-auto mb-32 p-2 px-4 text-[#fff] rounded-3xl  bg-yellow-300 transition ease-in-out delay-75 duration-200 "
+          className="w-44 mx-auto mb-32 p-2 px-4 text-[#000] rounded-3xl  bg-yellow-300 transition ease-in-out delay-75 duration-200 "
         >
           See More
         </button>
@@ -354,8 +367,13 @@ function Projects() {
         <hr className="bg-yellow-300 p-1 mt-2 w-1/3 md:w-3/5 rounded-full" />
       </div>
       {/* Application Tabsss */}
+      {/* Modal Section */}
+      <Modal isOpen={isModalOpen} onClose={closeModal}>
+        {modalContent}
+      </Modal>
+      {/* End of Modal Section */}
       {/* Part I */}
-      <div className="xl:flex relative">
+      <div className=" relative">
         {/* Application one */}
         <Swiper
           effect={"coverflow"}
@@ -524,23 +542,36 @@ function Projects() {
       </div>
 
       {/* Project description section */}
-      <div className="relative xl:flex xl:gap-5 xl:w-full mb-12 ">
+      <div className="relative  mb-12 ">
         {/* project description 1  */}
-        <div className="absolute bottom-[47rem] xl:bottom-[0rem] xl:top-[0.5rem]  w-72 md:w-[26rem] lg:w-[28rem] md:mx-52 lg:mx-96 xl:mx-[5rem]  mx-auto z-20  ">
+        <div className="absolute bottom-[47rem]   w-72 md:w-[26rem] lg:w-[28rem] md:mx-52 lg:mx-96  mx-auto z-20  ">
           <p className="font-SFproLight text-md lg:text-xl font-bold my-2 mx-5 dark:text-[#fff]">
             ISLAND MICROFINANCE BANK application is built with React Native,
             Typescript,React-Redux, TailwindCSS and Material UI Framework.
           </p>
           {/* Icons section */}
           <div className="flex gap-5 w-20 mx-auto ">
-            <a
-              href="https://expo.dev/accounts/mosimi/projects/islandmfb-rn/updates/25782119-832e-44d7-ad24-4e708990f450"
-              target="_blank"
-              rel="noreferrer"
+            <button
+              onClick={() =>
+                openModal(
+                  <div>
+                    <img
+                      src={require("../assets/Projects image/IslandmfbExpo.png")}
+                    />
+                    <a
+                      href="https://expo.dev/accounts/mosimi/projects/islandmfb-rn/updates/25782119-832e-44d7-ad24-4e708990f450"
+                      target="_blank"
+                      className="text-blue-500 underline text-sm"
+                    >
+                      https://expo.dev/accounts/mosimi/projects/islandmfb-rn/updates/25782119-832e-44d7-ad24-4e708990f450
+                    </a>
+                  </div>
+                )
+              }
               className="text-xl lg:text-2xl"
             >
               <FontAwesomeIcon icon={faLink} className="dark:text-[#fff]" />
-            </a>
+            </button>
             <a
               href="https://github.com/mosimiDev/islandmfb-rn"
               target="_blank"
@@ -555,23 +586,37 @@ function Projects() {
           </div>
           {/* End of icon section */}
         </div>
+
         {/* project description 2  */}
 
-        <div className="w-72 md:w-[26rem] lg:w-[28rem] mx-auto lg:mx-96 xl:absolute xl:mx-32 xl:left-[35rem] 2xl:left-[47rem] ">
+        <div className="w-72 md:w-[26rem] lg:w-[28rem] mx-auto lg:mx-96  ">
           <p className="font-SFproLight font-bold text-md lg:text-xl my-2 mx-5 dark:text-[#fff]">
             FOODIE is an app built with React Native, Typescript, Figma Tool,
             and React-Redux to persist the state of the application.
           </p>
           {/* Icons section */}
           <div className="flex gap-5 w-20 mx-auto ">
-            <a
-              href="https://expo.dev/accounts/mosimi/projects/foodie/updates/0869b7dd-4c5c-4551-a92a-656002b42230"
-              target="_blank"
-              rel="noreferrer"
+            <button
+              onClick={() =>
+                openModal(
+                  <div>
+                    <img
+                      src={require("../assets/Projects image/foodieExpo.png")}
+                    />
+                    <a
+                      href="https://expo.dev/accounts/mosimi/projects/foodie/updates/0869b7dd-4c5c-4551-a92a-656002b42230"
+                      target="_blank"
+                      className="text-blue-500 underline text-sm"
+                    >
+                      https://expo.dev/accounts/mosimi/projects/foodie/updates/0869b7dd-4c5c-4551-a92a-656002b42230
+                    </a>
+                  </div>
+                )
+              }
               className="text-xl lg:text-2xl"
             >
               <FontAwesomeIcon icon={faLink} className="dark:text-[#fff]" />
-            </a>
+            </button>
             <a
               href="https://github.com/mosimiDev/foodie"
               target="_blank"
@@ -588,7 +633,7 @@ function Projects() {
         </div>
       </div>
 
-      <div className="xl:flex relative">
+      <div className="relative">
         {/* Application three */}
         <Swiper
           effect={"coverflow"}
@@ -634,7 +679,7 @@ function Projects() {
       </div>
       {/* Project description section */}
 
-      <div className="w-72 md:w-[26rem] lg:w-[28rem] mx-auto lg:mx-96 xl:absolute xl:mx-32 xl:left-[35rem] 2xl:left-[47rem] ">
+      <div className="w-72 md:w-[26rem] lg:w-[28rem] mx-auto lg:mx-96  ">
         <p className="font-SFproLight font-bold text-md lg:text-xl my-2 mx-5 dark:text-[#fff]">
           WEATHER FORECAST is an app built with Typescript, Figma Tool, ReactJS,
           TailwindCSS and Material UI Framework.

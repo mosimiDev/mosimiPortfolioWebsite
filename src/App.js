@@ -8,7 +8,7 @@ import Experience from "./pages/Experience";
 import Projects from "./pages/Projects";
 import Contact from "./pages/Contact";
 import Navbar from './layout/Navbar';
-import Blog from './components/Blog/Blog';
+import Blog from './components/Blog/Blog/Blog';
 
 function App() {
   const [isLoading, setIsLoading] = useState(true);

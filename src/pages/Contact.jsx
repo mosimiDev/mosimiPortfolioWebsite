@@ -53,7 +53,7 @@ function Contact() {
             className="w-3/4 h-20 my-3 p-2 rounded-xl w-full lg:w-[28rem]"
           />
           <a
-            href="mailto: ayomide_akinlabi@yahoo.com?subject=Feedback&body=Message"
+            href="mailto: mosimi_akinlabi@gmail.com?subject=Feedback&body=Message"
             className="block text-5xl w-fit mx-auto xl:mx-48"
           >
             <FontAwesomeIcon

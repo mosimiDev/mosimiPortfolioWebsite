@@ -5,7 +5,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faUser } from "@fortawesome/free-solid-svg-icons";
 import { faBars } from "@fortawesome/free-solid-svg-icons";
 import { faXmark } from "@fortawesome/free-solid-svg-icons";
-import Blog from "../components/Blog/Blog";
+import Blog from "../components/Blog/Blog/Blog";
 import "./Navbar.css";
 
 function Navbar() {

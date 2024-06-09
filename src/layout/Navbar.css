@@ -19,7 +19,7 @@
     box-shadow: 0 40px 60px rgba(0, 0, 0, 0.1);
     padding: 10px 0 0 10px;
     margin: 0;
-    z-index: 1;
+    z-index: 150;
     transition: right 0.3s;
   }
 
