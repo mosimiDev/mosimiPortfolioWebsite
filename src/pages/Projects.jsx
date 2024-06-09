@@ -559,12 +559,17 @@ function Projects() {
                       src={require("../assets/Projects image/IslandmfbExpo.png")}
                     />
                     <a
-                      href="https://expo.dev/accounts/mosimi/projects/islandmfb-rn/updates/25782119-832e-44d7-ad24-4e708990f450"
+                      href="https://expo.dev/preview/update?message=updated%20packages&updateRuntimeVersion=1.0.0&createdAt=2024-06-01T01%3A05%3A31.111Z&slug=exp&projectId=60a50835-a717-4615-ba7e-19065a7ab147&group=25782119-832e-44d7-ad24-4e708990f450"
                       target="_blank"
                       className="text-blue-500 underline text-sm"
                     >
-                      https://expo.dev/accounts/mosimi/projects/islandmfb-rn/updates/25782119-832e-44d7-ad24-4e708990f450
+                      https://expo.dev/preview/update?message=updated%20packages&updateRuntimeVersion=1.0.0&createdAt=2024-06-01T01%3A05%3A31.111Z&slug=exp&projectId=60a50835-a717-4615-ba7e-19065a7ab147&group=25782119-832e-44d7-ad24-4e708990f450
                     </a>
+                    <p className="text-md">
+                      {" "}
+                      To log in to the bank app, use this dummy data that has been setup for
+                      you. Username: simiA password:hello123
+                    </p>
                   </div>
                 )
               }
@@ -604,11 +609,11 @@ function Projects() {
                       src={require("../assets/Projects image/foodieExpo.png")}
                     />
                     <a
-                      href="https://expo.dev/accounts/mosimi/projects/foodie/updates/0869b7dd-4c5c-4551-a92a-656002b42230"
+                      href="https://expo.dev/preview/update?message=cart%20functionality%20and%20image%20optimization%20done&updateRuntimeVersion=1.0.0&createdAt=2024-05-31T19%3A36%3A26.083Z&slug=exp&projectId=7bfc3519-0549-4bbd-a893-d01b6676c4f7&group=0869b7dd-4c5c-4551-a92a-656002b42230"
                       target="_blank"
                       className="text-blue-500 underline text-sm"
                     >
-                      https://expo.dev/accounts/mosimi/projects/foodie/updates/0869b7dd-4c5c-4551-a92a-656002b42230
+                      https://expo.dev/preview/update?message=cart%20functionality%20and%20image%20optimization%20done&updateRuntimeVersion=1.0.0&createdAt=2024-05-31T19%3A36%3A26.083Z&slug=exp&projectId=7bfc3519-0549-4bbd-a893-d01b6676c4f7&group=0869b7dd-4c5c-4551-a92a-656002b42230
                     </a>
                   </div>
                 )
