@@ -567,8 +567,8 @@ function Projects() {
                     </a>
                     <p className="text-md">
                       {" "}
-                      To log in to the bank app, use this dummy data that has been setup for
-                      you. Username: simiA password:hello123
+                      To log in to the bank app, use this dummy data that has
+                      been setup for you. Username: simiA password:hello123
                     </p>
                   </div>
                 )
@@ -609,11 +609,11 @@ function Projects() {
                       src={require("../assets/Projects image/foodieExpo.png")}
                     />
                     <a
-                      href="https://expo.dev/preview/update?message=cart%20functionality%20and%20image%20optimization%20done&updateRuntimeVersion=1.0.0&createdAt=2024-05-31T19%3A36%3A26.083Z&slug=exp&projectId=7bfc3519-0549-4bbd-a893-d01b6676c4f7&group=0869b7dd-4c5c-4551-a92a-656002b42230"
+                      href="https://expo.dev/preview/update?message=cleaned%20things%20up%20a%20bit&updateRuntimeVersion=1.0.0(1)&createdAt=2024-06-13T21%3A18%3A15.210Z&slug=exp&projectId=7bfc3519-0549-4bbd-a893-d01b6676c4f7&group=247a13b7-3c0e-4a6d-936e-580e0469809d"
                       target="_blank"
                       className="text-blue-500 underline text-sm"
                     >
-                      https://expo.dev/preview/update?message=cart%20functionality%20and%20image%20optimization%20done&updateRuntimeVersion=1.0.0&createdAt=2024-05-31T19%3A36%3A26.083Z&slug=exp&projectId=7bfc3519-0549-4bbd-a893-d01b6676c4f7&group=0869b7dd-4c5c-4551-a92a-656002b42230
+                      https://expo.dev/preview/update?message=cleaned%20things%20up%20a%20bit&updateRuntimeVersion=1.0.0(1)&createdAt=2024-06-13T21%3A18%3A15.210Z&slug=exp&projectId=7bfc3519-0549-4bbd-a893-d01b6676c4f7&group=247a13b7-3c0e-4a6d-936e-580e0469809d
                     </a>
                   </div>
                 )
