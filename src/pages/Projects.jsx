@@ -559,17 +559,12 @@ function Projects() {
                       src={require("../assets/Projects image/IslandmfbExpo.png")}
                     />
                     <a
-                      href="https://expo.dev/preview/update?message=updated%20packages&updateRuntimeVersion=1.0.0&createdAt=2024-06-01T01%3A05%3A31.111Z&slug=exp&projectId=60a50835-a717-4615-ba7e-19065a7ab147&group=25782119-832e-44d7-ad24-4e708990f450"
+                      href="https://expo.dev/preview/update?message=updated%20deprecated%20packages&updateRuntimeVersion=1.0.0(1)&createdAt=2024-06-21T18%3A14%3A03.628Z&slug=exp&projectId=60a50835-a717-4615-ba7e-19065a7ab147&group=61eb7830-b4d9-48f7-9de8-93080bf20b7a"
                       target="_blank"
                       className="text-blue-500 underline text-sm"
                     >
-                      https://expo.dev/preview/update?message=updated%20packages&updateRuntimeVersion=1.0.0&createdAt=2024-06-01T01%3A05%3A31.111Z&slug=exp&projectId=60a50835-a717-4615-ba7e-19065a7ab147&group=25782119-832e-44d7-ad24-4e708990f450
+                      https://expo.dev/preview/update?message=updated%20deprecated%20packages&updateRuntimeVersion=1.0.0(1)&createdAt=2024-06-21T18%3A14%3A03.628Z&slug=exp&projectId=60a50835-a717-4615-ba7e-19065a7ab147&group=61eb7830-b4d9-48f7-9de8-93080bf20b7a
                     </a>
-                    <p className="text-md">
-                      {" "}
-                      To log in to the bank app, use this dummy data that has
-                      been setup for you. Username: simiA password:hello123
-                    </p>
                   </div>
                 )
               }
@@ -609,11 +604,11 @@ function Projects() {
                       src={require("../assets/Projects image/foodieExpo.png")}
                     />
                     <a
-                      href="https://expo.dev/preview/update?message=cleaned%20things%20up%20a%20bit&updateRuntimeVersion=1.0.0(1)&createdAt=2024-06-13T21%3A18%3A15.210Z&slug=exp&projectId=7bfc3519-0549-4bbd-a893-d01b6676c4f7&group=247a13b7-3c0e-4a6d-936e-580e0469809d"
+                      href="https://expo.dev/preview/update?message=updated%20packages&updateRuntimeVersion=1.0.0(1)&createdAt=2024-06-20T23%3A27%3A24.924Z&slug=exp&projectId=7bfc3519-0549-4bbd-a893-d01b6676c4f7&group=d0dd6d07-3a7f-49c5-a65b-b36ae0450a53"
                       target="_blank"
                       className="text-blue-500 underline text-sm"
                     >
-                      https://expo.dev/preview/update?message=cleaned%20things%20up%20a%20bit&updateRuntimeVersion=1.0.0(1)&createdAt=2024-06-13T21%3A18%3A15.210Z&slug=exp&projectId=7bfc3519-0549-4bbd-a893-d01b6676c4f7&group=247a13b7-3c0e-4a6d-936e-580e0469809d
+                      https://expo.dev/preview/update?message=updated%20packages&updateRuntimeVersion=1.0.0(1)&createdAt=2024-06-20T23%3A27%3A24.924Z&slug=exp&projectId=7bfc3519-0549-4bbd-a893-d01b6676c4f7&group=d0dd6d07-3a7f-49c5-a65b-b36ae0450a53
                     </a>
                   </div>
                 )

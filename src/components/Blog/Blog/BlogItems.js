@@ -176,4 +176,17 @@ export const BlogItems = [
     markdowntext: "raw Markdown file",
     category: "content-writing",
   },
+  {
+    id: 14,
+    title: "Blockchain and the law",
+    description:
+      "This is an educative article that is meant to enlighten the target audience on Blockchain. It is an article that encourages its readers to think outside the box. It is an article of 408 words aimed at being engaging and not boring its readers",
+    platform: "substack",
+    date: "Jun 14, 2024",
+    link: "https://mosimidevv.substack.com/p/blockchain-and-the-law?r=2zgly6&utm_campaign=post&utm_medium=web&triedRedirect=true",
+    markdownlink:
+      "https://docs.google.com/document/d/e/2PACX-1vQKkuMU7KAua8R7mD5nSRzWLL6BqQOSPKkrtr3IP64J8R01BLzXGSH7tU7ncR41vWIMxXSOpHlXC368/pub",
+    markdowntext: "raw Markdown file",
+    category: "technical-writing",
+  },
 ];
