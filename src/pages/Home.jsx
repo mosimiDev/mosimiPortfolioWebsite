@@ -10,7 +10,6 @@ import About from "./About";
 import Experience from "./Experience";
 import Projects from "./Projects";
 import Contact from "./Contact";
-import "./Home.css";
 import gsap from "gsap";
 import { useGSAP } from "@gsap/react";
 
@@ -38,9 +37,9 @@ function Home() {
   );
 
   return (
-    <div
+    <section
       id="/"
-      className=" w-screen bg-yellow-300 h-screen dark:bg-[#000]"
+      className=" w-screen bg-black   dark:bg-[#000] p-8"
       ref={container}
     >
       <Navbar />
@@ -48,7 +47,7 @@ function Home() {
       <div className="flex mt-2 lg:mt-6 ">
         {/* Text section */}
         <div
-          className="relative left-[1rem] md:left-[4rem]   lg:left-[20rem] grid h-52  w-1/4 md:w-1/5 lg:w-1/2 pt-20 md:pt-40   lg:pt-36 md:mx-auto  place-items-center my-4 lg:my-12 z-[100]"
+          className="relative left-[1rem] md:left-[4rem]   lg:left-[2rem] grid h-[26rem]  w-1/4 md:w-1/5 lg:w-1/2 pt-20 md:pt-40   lg:pt-6 md:mx-auto  place-items-center my-4 lg:my-12 z-[100]"
           id="text"
           ref={textsection}
         >
@@ -56,8 +55,8 @@ function Home() {
             Hi, I am <span className="text-[#58FFF5]">Mosimi</span>
           </div>
           <div className=" font-SFproLight  text-md md:text-2xl md:w-[20rem] tracking-wide w-40  lg:w-[40rem] text-white mx-auto my-1 lg:my-4 py-0  text-center dark:bg-[#fff]">
-            I am a frontend engineer and a creative bringing ideas to life and
-            helping companies achieve their creative goals
+            I am a frontend engineer and a creative that helps businesses bring their
+            ideas to life and achieve their creative goals
           </div>
 
           {/* Social Pages */}
@@ -93,18 +92,23 @@ function Home() {
             </Link>
           </div>
         </div>
-        <div id="bg-img" ref={image}></div>
+
+        {/* Image section */}
+        <div className="rounded-full mt-4 relative lg:right-32 top-12 lg:mt-6 mb-4 w-64 h-64 lg:w-72 lg:h-72 bg-[#fff] z-20">
+          <img
+            src={require("../assets/IMG_5042.JPG")}
+            alt="img"
+            className="w-4/5 h-60 lg:w-64 pt-4 mt-5 lg:pt-1 lg:h-64 object-cover object-center mx-auto  rounded-full overflow-hidden"
+          />
+        </div>
       </div>
 
       <About />
       <Experience />
       <Projects />
       <Contact />
-    </div>
+    </section>
   );
 }
-
-// text-[#58FFF5]
-// style={{color:'#58FFF5',inset:'0'}}
 
 export default Home;

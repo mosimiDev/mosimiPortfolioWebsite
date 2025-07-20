@@ -44,32 +44,32 @@ function About() {
           id="imgdesc"
           ref={imgdescRef}
         >
-          <div className="rounded-full mt-4 ml-4 lg:ml-12 lg:mt-6 mb-4 w-64 h-64 lg:w-72 lg:h-72 bg-yellow-300 z-20">
+          <div className="rounded-full mt-4 ml-4 lg:ml-12 lg:mt-6 mb-4 w-64 h-64 lg:w-72 lg:h-72 bg-[#58FFF5] z-20">
             <img
-              src={require("../assets/IMG_1890.png")}
+              src={require("../assets/IMG_1892.png")}
               alt="img"
               className="w-4/5 h-60 lg:w-64 pt-4 mt-5 lg:pt-1 lg:h-64 object-cover object-center mx-auto  rounded-full overflow-hidden"
             />
           </div>
           <div className="w-11/12 mx-auto p-6  lg:w-2/3 lg:h-[26rem] lg:p-12 bg-[#fff] shadow-xl rounded-xl">
             <p className="font-SFproLight text-md lg:text-xl mb-2">
-              I am Mosimi, a Mobile and Web Frontend Engineer. I love creating
-              UI for mobile applications and websites with creative interfaces
-              while ensuring that the product's aim is well communicated to its
-              users.
+              I am Mosimi, a frontend software engineer. I create User
+              Interface(UI) for mobile applications, web applications and
+              websites while ensuring that the product's aim is well
+              communicated to its users.
             </p>
 
             <p className="font-SFproLight text-md lg:text-xl mb-3 ">
-              I love to constantly evolve myself through learning, make
-              impactful changes to the tech space by teaching newbies in tech
-              through my LinkedIn page and the Medium platform, and have fun
-              while at it. In my spare time, I play volleyball, write, draw,
-              watch anime, eat good food and hang out with my friends.
+              I am driven by problem solving and I constantly evolve myself
+              through learning, makings impactful changes to the tech space by
+              teaching newbies in tech through my platform on social media, and
+              have fun while at it. In my spare time, I play volleyball, draw,
+              watch anime, read, eat good food and hang out with my friends.
             </p>
             <Link
               smooth
               to={"#projects"}
-              className="bg-[#000] rounded-3xl px-6 mt-3  lg:mt-8 text-sm md:text-lg text-white py-2 font-SFproLight transition ease-in-out delay-150 hover:-translate-y-0.5 hover:scale-110  duration-300"
+              className="bg-[#000] rounded-3xl px-6 mt-3  lg:mt-8 text-sm md:text-lg text-white py-2 font-SFproLight transition ease-in-out delay-150 hover:-translate-y-0.5 hover:scale-110 hover:bg-[#767676] duration-300"
             >
               View My Works
             </Link>
@@ -82,123 +82,72 @@ function About() {
             ></a> */}
           </div>
         </div>
-        {/* <!-- Stats div --> */}
-        <div className="flex w-full md:w-3/4 md:mx-auto gap-1 md:gap-4 lg:mx-72 xl:mx-96 2xl:mx-[29rem] ">
-          {/* <!-- First stat --> */}
-          <div className="flex mx-1 gap-1 lg:mx-5 lg:gap-3 ">
-            <span className="text-xl lg:text-4xl">
-              <FontAwesomeIcon icon={faFire} className=" dark:text-[#fff]" />
-            </span>
-            <div>
-              <p className="font-bold text-sm lg:text-xl mx-2 lg:mx-5 dark:text-[#fff]">
-                20
-              </p>
-              <p className="font-SFproLight text-sm lg:text-md  dark:text-[#fff]">
-                Projects Completed
-              </p>
-            </div>
-          </div>
-          {/* <!-- Second stat --> */}
-          <div className="flex mx-1 lg:mx-5 gap-2">
-            <span className="text-xl lg:text-3xl">
-              <FontAwesomeIcon icon={faBuilding} className="dark:text-[#fff]" />
-            </span>
-            <div>
-              <p className="font-bold text-sm lg:text-xl mx-2 lg:mx-5 dark:text-[#fff]">
-                2
-              </p>
-              <p className="font-SFproLight text-sm lg:text-md dark:text-[#fff]">
-                Running Projects
-              </p>
-            </div>
-          </div>
-          {/* <!-- Third stat --> */}
-          <div className="flex mx-1 lg:mx-5 gap-2">
-            <span className=" text-xl lg:text-3xl">
-              <FontAwesomeIcon icon={faUser} className="dark:text-[#fff]" />
-            </span>
-            <div>
-              <p className="font-bold text-sm lg:text-xl mx-2 lg:mx-5 dark:text-[#fff]">
-                16
-              </p>
-              <p className="font-SFproLight text-sm lg:text-md dark:text-[#fff]">
-                Satisfied Clients
-              </p>
-            </div>
-          </div>
-        </div>
+        {/* <!-- Stacks --> */}
         <h4 className="text-[#000] text-md lg:text-lg md:tracking-wide mb-5 ml-12 mt-12 dark:text-[#fff]">
           Stacks
         </h4>
+
         <div
-          className="flex gap-3 ml-12 text-sm lg:text-xl "
+          className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6 ml-12"
           id="stacks"
           ref={stackRef}
         >
-          <FontAwesomeIcon icon={faReact} className="dark:text-[#fff]" />
-          <p className="tracking-wide text-sm lg:text-md dark:text-[#fff]">
-            React-Native
-          </p>
-        </div>
-        <div className="flex gap-3 ml-12 text-sm lg:text-xl ">
-          <FontAwesomeIcon icon={faFire} className="dark:text-[#fff]" />
-          <p className="tracking-wide text-sm lg:text-md    dark:text-[#fff]">
-            Firebase
-          </p>
-        </div>
-        <div className="flex gap-3 ml-12 text-sm lg:text-xl ">
-          <FontAwesomeIcon icon={faReact} className="dark:text-[#fff]" />
-          <p className="tracking-wide text-sm lg:text-md  dark:text-[#fff]">
-            ReactJS
-          </p>
-        </div>
-        <div className="flex gap-3 ml-12 text-sm lg:text-xl">
-          <FontAwesomeIcon icon={faReact} className="dark:text-[#fff]" />
-          <p className="tracking-wide text-sm lg:text-md  dark:text-[#fff]">
-            React-Redux
-          </p>
-        </div>
-        <div className="flex gap-3 ml-12 text-sm lg:text-xl">
-          <FontAwesomeIcon icon={faSplotch} className="dark:text-[#fff]" />
-          <p className="tracking-wide text-sm lg:text-md  dark:text-[#fff]">
-            TypeScript
-          </p>
-        </div>
-        <div className="flex gap-3 ml-12 text-sm lg:text-xl">
-          <FontAwesomeIcon icon={faSplotch} className="dark:text-[#fff]" />
-          <p className="tracking-wide text-sm lg:text-md  dark:text-[#fff]">
-            JavaScript
-          </p>
-        </div>
-        <div className="flex gap-3 ml-12 text-sm lg:text-xl">
-          <FontAwesomeIcon icon={faFigma} className="dark:text-[#fff]" />
-          <p className="tracking-wide text-sm lg:text-md  dark:text-[#fff]">
-            Figma Design
-          </p>
-        </div>
-        <div className="flex gap-3 ml-12 text-sm lg:text-xl ">
-          <FontAwesomeIcon icon={faSplotch} className="dark:text-[#fff]" />
-          <p className="tracking-wide text-sm lg:text-md  dark:text-[#fff]">
-            Material UI
-          </p>
-        </div>
-        <div className="flex gap-3 ml-12 text-sm lg:text-xl ">
-          <FontAwesomeIcon icon={faSplotch} className="dark:text-[#fff]" />
-          <p className="tracking-wide text-sm lg:text-md  dark:text-[#fff]">
-            Tailwind CSS
-          </p>
-        </div>
-        <div className="flex gap-3 ml-12 text-sm lg:text-xl ">
-          <FontAwesomeIcon icon={faCss3} className="dark:text-[#fff]" />
-          <p className="tracking-wide text-sm lg:text-md  dark:text-[#fff]">
-            CSS3
-          </p>
-        </div>
-        <div className="flex gap-3 ml-12 text-sm lg:text-xl ">
-          <FontAwesomeIcon icon={faHtml5} className="dark:text-[#fff]" />
-          <p className="tracking-wide text-sm lg:text-md  dark:text-[#fff]">
-            HTML5
-          </p>
+          <div className="flex items-center gap-3 font-SFproLight text-md lg:text-xl">
+            <FontAwesomeIcon icon={faReact} className="dark:text-[#fff]" />
+            <p className="tracking-wide dark:text-[#fff]">React-Native</p>
+          </div>
+
+          <div className="flex items-center gap-3 font-SFproLight text-md lg:text-xl">
+            <FontAwesomeIcon icon={faFire} className="dark:text-[#fff]" />
+            <p className="tracking-wide dark:text-[#fff]">Firebase</p>
+          </div>
+
+          <div className="flex items-center gap-3 font-SFproLight text-md lg:text-xl">
+            <FontAwesomeIcon icon={faReact} className="dark:text-[#fff]" />
+            <p className="tracking-wide dark:text-[#fff]">ReactJS</p>
+          </div>
+
+          <div className="flex items-center gap-3 font-SFproLight text-md lg:text-xl">
+            <FontAwesomeIcon icon={faReact} className="dark:text-[#fff]" />
+            <p className="tracking-wide dark:text-[#fff]">React-Redux</p>
+          </div>
+
+          <div className="flex items-center gap-3 font-SFproLight text-md lg:text-xl">
+            <FontAwesomeIcon icon={faSplotch} className="dark:text-[#fff]" />
+            <p className="tracking-wide dark:text-[#fff]">TypeScript</p>
+          </div>
+
+          <div className="flex items-center gap-3 text-sm lg:text-xl">
+            <FontAwesomeIcon icon={faSplotch} className="dark:text-[#fff]" />
+            <p className="tracking-wide font-SFproLight text-md lg:text-xl dark:text-[#fff]">
+              JavaScript
+            </p>
+          </div>
+
+          <div className="flex items-center gap-3 font-SFproLight text-md lg:text-xl">
+            <FontAwesomeIcon icon={faFigma} className="dark:text-[#fff]" />
+            <p className="tracking-wide dark:text-[#fff]">Figma Design</p>
+          </div>
+
+          <div className="flex items-center gap-3 font-SFproLight text-md lg:text-xl">
+            <FontAwesomeIcon icon={faSplotch} className="dark:text-[#fff]" />
+            <p className="tracking-wide dark:text-[#fff]">Material UI</p>
+          </div>
+
+          <div className="flex items-center gap-3 font-SFproLight text-md lg:text-xl">
+            <FontAwesomeIcon icon={faSplotch} className="dark:text-[#fff]" />
+            <p className="tracking-wide dark:text-[#fff]">Tailwind CSS</p>
+          </div>
+
+          <div className="flex items-center gap-3 font-SFproLight text-md lg:text-xl">
+            <FontAwesomeIcon icon={faCss3} className="dark:text-[#fff]" />
+            <p className="tracking-wide dark:text-[#fff]">CSS3</p>
+          </div>
+
+          <div className="flex items-center gap-3 font-SFproLight text-md lg:text-xl">
+            <FontAwesomeIcon icon={faHtml5} className="dark:text-[#fff]" />
+            <p className="tracking-wide dark:text-[#fff]">HTML5</p>
+          </div>
         </div>
       </div>
     </div>

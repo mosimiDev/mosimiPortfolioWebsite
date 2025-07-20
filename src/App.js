@@ -19,7 +19,11 @@ function App() {
   }, []);
   
   if (isLoading) {
-    return<LoadingScreen/>
+    return (
+      <div className='mt-[15rem]'>
+        <LoadingScreen />
+      </div>
+    );
   }
 
   return (

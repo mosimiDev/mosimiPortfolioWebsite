@@ -38,7 +38,7 @@ function Navbar() {
 
   return (
     <div>
-      <nav className="flex pt-6 justify-between w-screen  bg-yellow-300 ">
+      <nav className="flex pt-6 justify-between w-screen  bg-black">
         <div className=" mx-6">
           <a
             className="text-white text-md md:text-xl lg:text-2xl font-SFproBold flex"

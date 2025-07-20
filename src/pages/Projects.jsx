@@ -12,6 +12,7 @@ import "./Projects.css";
 import { useNavigate, Routes, Route, NavLink } from "react-router-dom";
 import Blog from "../components/Blog/Blog/Blog";
 import Modal from "../components/Modal/Modal";
+import ExpandableText from "../components/ShortenText/ExpandableText";
 
 function Projects() {
   const [isModalOpen, setIsModalOpen] = useState(false);
@@ -46,9 +47,9 @@ function Projects() {
     >
       <div className="flex w-11/12 gap-4 lg:w-5/6 lg:gap-2 mt-10 mb-7">
         <h4 className="font-SFproBold font-bold lg:text-xl dark:text-[#fff] md:text-md">
-          Latest Post
+          Posts
         </h4>
-        <hr className="bg-yellow-300 p-1 mt-2 w-1/2 md:w-4/5 rounded-full" />
+        <hr className="bg-black p-1 mt-2 w-1/2 md:w-4/5 rounded-full" />
       </div>
       {/* <!-- Post div --> */}
       <div className="flex flex-wrap gap-12 w-full mt-8 mb-20">
@@ -100,7 +101,7 @@ function Projects() {
         </a>
         {/* <!-- Post Three --> */}
         <a
-          href="https://dev.to/mosimidev/how-to-replace-a-single-page-application-with-a-different-page-in-react-router-2f84"
+          href="https://dev.to/mosimidev/how-to-differentiate-between-put-and-post-request-in-rest-api-505k"
           target="_blank"
           rel="noreferrer"
         >
@@ -110,11 +111,11 @@ function Projects() {
             className="w-96 rounded-xl"
           />
           <h3 className="font-SFproBold  my-2 dark:text-[#fff]">
-            Props in React-Simplified
+            How to differentiate between POST and PUT Request in REST API
           </h3>
           <div className="flex gap-5">
             <p className="font-SFproLight text-sm dark:text-[#fff]">
-              Published on April 3, 2023
+              Published on Nov 6 2023
             </p>
             <p className="font-SFproLight text-sm dark:text-[#fff]">
               3 min read
@@ -127,19 +128,19 @@ function Projects() {
         <button
           onClick={navigateToBlog}
           target="_blank"
-          className="w-44 mx-auto mb-32 p-2 px-4 text-[#000] rounded-3xl  bg-yellow-300 transition ease-in-out delay-75 duration-200 "
+          className="w-44 mx-auto mb-32 p-2 px-4 text-white rounded-3xl  bg-black transition ease-in-out delay-75 duration-200 hover:bg-[#767676]"
         >
           See More
         </button>
       </div>
 
       {/* Swiperrr section */}
-      {/* <!-- Landing Pages Section --> */}
+      {/* <!-- Web Application Section --> */}
       <div className="flex w-11/12 gap-2    mt-10 mb-7">
         <h4 className="font-SFproBold font-bold lg:text-xl dark:text-[#fff]">
-          Landing Pages
+          Web Application
         </h4>
-        <hr className="bg-yellow-300 p-1 mt-2 w-1/2 md:w-4/5 rounded-full" />
+        <hr className="bg-black p-1 mt-2 w-1/2 md:w-4/5 rounded-full" />
       </div>
       {/* Landing Page Tabssss */}
       {/* Landing page-1 */}
@@ -158,70 +159,41 @@ function Projects() {
       >
         <SwiperSlide className="swiper-slide">
           <img
-            src={require("../assets/Projects image/FireShot Capture 037 - Lulu - localhost.png")}
+            src={require("../assets/Projects image/FireShot Capture 152 - Pens and Letters - [localhost].png")}
             alt="img"
           />
         </SwiperSlide>
         <SwiperSlide className="swiper-slide">
           <img
-            src={require("../assets/Projects image/FireShot Capture 038 - Lulu - localhost.png")}
+            src={require("../assets/Projects image/FireShot Capture 153 - Pens and Letters - [localhost].png")}
             alt="img"
           />
         </SwiperSlide>
         <SwiperSlide className="swiper-slide">
           <img
-            src={require("../assets/Projects image/FireShot Capture 039 - Lulu - localhost.png")}
+            src={require("../assets/Projects image/FireShot Capture 154 - Pens and Letters - [localhost].png")}
             alt="img"
           />
         </SwiperSlide>
         <SwiperSlide className="swiper-slide">
           <img
-            src={require("../assets/Projects image/FireShot Capture 040 - Lulu - localhost.png")}
+            src={require("../assets/Projects image/FireShot Capture 155 - Pens and Letters - [localhost].png")}
             alt="img"
           />
         </SwiperSlide>
         <SwiperSlide className="swiper-slide">
           <img
-            src={require("../assets/Projects image/FireShot Capture 041 - Lulu - localhost.png")}
+            src={require("../assets/Projects image/FireShot Capture 156 - Pens and Letters - [localhost].png")}
             alt="img"
           />
         </SwiperSlide>
         <SwiperSlide className="swiper-slide">
           <img
-            src={require("../assets/Projects image/FireShot Capture 042 - Lulu - localhost.png")}
+            src={require("../assets/Projects image/FireShot Capture 157 - Pens and Letters - [localhost].png")}
             alt="img"
           />
         </SwiperSlide>
-        <SwiperSlide className="swiper-slide">
-          <img
-            src={require("../assets/Projects image/FireShot Capture 043 - Lulu - localhost.png")}
-            alt="img"
-          />
-        </SwiperSlide>
-        <SwiperSlide className="swiper-slide">
-          <img
-            src={require("../assets/Projects image/FireShot Capture 044 - Lulu - localhost.png")}
-            alt="img"
-          />
-        </SwiperSlide>
-        <SwiperSlide className="swiper-slide">
-          <img
-            src={require("../assets/Projects image/FireShot Capture 046 - Responsinator - localhost_3000_ - www.responsinator.com.png")}
-            alt="img"
-          />
-        </SwiperSlide>
-        <SwiperSlide className="swiper-slide">
-          <img
-            src={require("../assets/Projects image/FireShot Capture 047 - Responsinator - localhost_3000_ - www.responsinator.com.png")}
-            alt="img"
-          />
-        </SwiperSlide>
-        <SwiperSlide className="swiper-slide">
-          <img
-            src={require("../assets/Projects image/FireShot Capture 048 - Responsinator - localhost_3000_ - www.responsinator.com.png")}
-            alt="img"
-          />
-        </SwiperSlide>
+
         <div className="autoplay-progress" slot="container-end">
           <svg viewBox="0 0 48 48" ref={progressCircle}>
             <circle cx="24" cy="24" r="20"></circle>
@@ -231,17 +203,19 @@ function Projects() {
       </Swiper>
       {/* project description 1  */}
       <div className="w-3/4 mx-auto mt-6 mb-20">
-        <p className="font-SFproLight font-bold text-md lg:text-xl dark:text-[#fff] ">
-          LULU landing page is built with ReactJS, Javascript, TailwindCSS,
-          Figma tool and CSS3.
-        </p>
+        <ExpandableText
+          text={
+            "Pens and Letters is a blog that fetches current news from an api to show users information in real time.It is built with NexJS, NextAuth for user authentication. It is written in mostly typescript, package with npm, and uses libraries like Zod a validation library made with typescript that helps with validation of data and Tailwind React Native Classnames(TWRNC) for easy styling of components without needing to constantly create Stylesheets all the time and will help with dark mode"
+          }
+          maxChars={100}
+        />
         {/* Icons section */}
         <div className="flex gap-8 lg:gap-5 w-32 mx-auto mt-3 ">
           <a
-            href="https://lulu-fe-7ry5-cfcbjy1kw-mosimidev.vercel.app/"
+            href="https://penandletters.vercel.app/"
             target="_blank"
             rel="noreferrer"
-            className="text-xl lg:text-2xl"
+            className="text-xl lg:text-2xl hover:text-[#767676]"
           >
             <FontAwesomeIcon
               icon={faArrowUpRightFromSquare}
@@ -249,10 +223,10 @@ function Projects() {
             />
           </a>
           <a
-            href="https://github.com/mosimiDev/lulu-fe/tree/main/lulu-fe"
+            href="https://github.com/mosimiDev/pen_and_letters"
             target="_blank"
             rel="noreferrer"
-            className="text-xl lg:text-2xl"
+            className="text-xl lg:text-2xl hover:text-[#767676]"
           >
             <FontAwesomeIcon
               icon={faSquareGithub}
@@ -278,43 +252,73 @@ function Projects() {
       >
         <SwiperSlide className="swiper-slide">
           <img
-            src={require("../assets/Projects image/FireShot Capture 049 - Axel Gustafsson - .png")}
+            src={require("../assets/Projects image/FireShot Capture 159 - AeroGlide - [aero-glide-4hw1.vercel.app].png")}
             alt="img"
           />
         </SwiperSlide>
         <SwiperSlide className="swiper-slide">
           <img
-            src={require("../assets/Projects image/FireShot Capture 050 - Axel Gustafsson - .png")}
+            src={require("../assets/Projects image/FireShot Capture 160 - AeroGlide - [aero-glide-4hw1.vercel.app].png")}
             alt="img"
           />
         </SwiperSlide>
         <SwiperSlide className="swiper-slide">
           <img
-            src={require("../assets/Projects image/FireShot Capture 051 - Axel Gustafsson - .png")}
+            src={require("../assets/Projects image/FireShot Capture 161 - AeroGlide - [aero-glide-4hw1.vercel.app].png")}
             alt="img"
           />
         </SwiperSlide>
         <SwiperSlide className="swiper-slide">
           <img
-            src={require("../assets/Projects image/FireShot Capture 052 - Axel Gustafsson - .png")}
+            src={require("../assets/Projects image/FireShot Capture 162 - AeroGlide - [aero-glide-4hw1.vercel.app].png")}
             alt="img"
           />
         </SwiperSlide>
         <SwiperSlide className="swiper-slide">
           <img
-            src={require("../assets/Projects image/FireShot Capture 053 - Axel Gustafsson - .png")}
+            src={require("../assets/Projects image/FireShot Capture 163 - AeroGlide - [aero-glide-4hw1.vercel.app].png")}
             alt="img"
           />
         </SwiperSlide>
         <SwiperSlide className="swiper-slide">
           <img
-            src={require("../assets/Projects image/FireShot Capture 054 - Axel Gustafsson - .png")}
+            src={require("../assets/Projects image/FireShot Capture 164 - AeroGlide - [aero-glide-4hw1.vercel.app].png")}
             alt="img"
           />
         </SwiperSlide>
         <SwiperSlide className="swiper-slide">
           <img
-            src={require("../assets/Projects image/FireShot Capture 055 - Axel Gustafsson - .png")}
+            src={require("../assets/Projects image/FireShot Capture 165 - AeroGlide - [aero-glide-4hw1.vercel.app].png")}
+            alt="img"
+          />
+        </SwiperSlide>
+        <SwiperSlide className="swiper-slide">
+          <img
+            src={require("../assets/Projects image/FireShot Capture 166 - AeroGlide - [aero-glide-4hw1.vercel.app].png")}
+            alt="img"
+          />
+        </SwiperSlide>
+        <SwiperSlide className="swiper-slide">
+          <img
+            src={require("../assets/Projects image/FireShot Capture 167 - AeroGlide - [aero-glide-4hw1.vercel.app].png")}
+            alt="img"
+          />
+        </SwiperSlide>
+        <SwiperSlide className="swiper-slide">
+          <img
+            src={require("../assets/Projects image/FireShot Capture 168 - AeroGlide - [aero-glide-4hw1.vercel.app].png")}
+            alt="img"
+          />
+        </SwiperSlide>
+        <SwiperSlide className="swiper-slide">
+          <img
+            src={require("../assets/Projects image/FireShot Capture 169 - AeroGlide - [aero-glide-4hw1.vercel.app].png")}
+            alt="img"
+          />
+        </SwiperSlide>
+        <SwiperSlide className="swiper-slide">
+          <img
+            src={require("../assets/Projects image/FireShot Capture 170 - AeroGlide - [aero-glide-4hw1.vercel.app].png")}
             alt="img"
           />
         </SwiperSlide>
@@ -327,14 +331,16 @@ function Projects() {
       </Swiper>
       {/* project description 2  */}
       <div className="w-3/4 mx-auto mt-6 mb-20">
-        <p className="font-SFproLight font-bold text-md lg:text-xl dark:text-[#fff]">
-          AXEL GUSTAFSSON landing page is built with ReactJS, Javascript,
-          TailwindCSS, Figma tool and the Material UI Framework.
-        </p>
+        <ExpandableText
+          text={
+            "AeroGlide is a web application that uses 3D model to bring the company's creative ides to life. It uses meshes, textures and mapping to achieve this."
+          }
+          maxChars={100}
+        />
         {/* Icons section */}
         <div className="flex gap-8 lg:gap-5 w-32 mx-auto mt-3">
           <a
-            href="https://axel-gustaffon-f1g1.vercel.app/"
+            href="https://aero-glide-4hw1.vercel.app/"
             target="_blank"
             rel="noreferrer"
             className="text-xl lg:text-2xl"
@@ -345,7 +351,82 @@ function Projects() {
             />
           </a>
           <a
-            href="https://github.com/mosimiDev/Axel-Gustaffon"
+            href="https://github.com/mosimiDev/AeroGlide"
+            target="_blank"
+            rel="noreferrer"
+            className="text-xl lg:text-2xl"
+          >
+            <FontAwesomeIcon
+              icon={faSquareGithub}
+              className="dark:text-[#fff]"
+            />
+          </a>
+        </div>
+        {/* End of icon section */}
+      </div>
+
+      {/* Landing Page 3 */}
+      <Swiper
+        spaceBetween={30}
+        centeredSlides={true}
+        autoplay={{
+          delay: 2500,
+          disableOnInteraction: false,
+        }}
+        pagination={{ clickable: true }}
+        navigation={true}
+        modules={[Autoplay, Pagination, Navigation]}
+        onAutoplayTimeLeft={onAutoplayTimeLeft}
+        className="mySwiper"
+      >
+        <SwiperSlide className="swiper-slide">
+          <img
+            src={require("../assets/Projects image/FireShot Capture 181 - Greenopolis Web Game - [greenopolis-web-93dz.vercel.app].png")}
+            alt="img"
+          />
+        </SwiperSlide>
+        <SwiperSlide className="swiper-slide">
+          <img
+            src={require("../assets/Projects image/FireShot Capture 176 - Greenopolis Web Game - [127.0.0.1].png")}
+            alt="img"
+          />
+        </SwiperSlide>
+        <SwiperSlide className="swiper-slide">
+          <img
+            src={require("../assets/Projects image/FireShot Capture 178 - Greenopolis Web Game - [127.0.0.1].png")}
+            alt="img"
+          />
+        </SwiperSlide>
+        <div className="autoplay-progress" slot="container-end">
+          <svg viewBox="0 0 48 48" ref={progressCircle}>
+            <circle cx="24" cy="24" r="20"></circle>
+          </svg>
+          <span ref={progressContent}></span>
+        </div>
+      </Swiper>
+      {/* project description 3  */}
+      <div className="w-3/4 mx-auto mt-6 mb-20">
+        <ExpandableText
+          text={
+            "Greenopolis is a python based game and uses a library like phaser to build a web based version."
+          }
+          maxChar={100}
+        />
+        {/* Icons section */}
+        <div className="flex gap-8 lg:gap-5 w-32 mx-auto mt-3">
+          <a
+            href="https://greenopolis-web-93dz.vercel.app/"
+            target="_blank"
+            rel="noreferrer"
+            className="text-xl lg:text-2xl"
+          >
+            <FontAwesomeIcon
+              icon={faArrowUpRightFromSquare}
+              className="dark:text-[#fff]"
+            />
+          </a>
+          <a
+            href="https://github.com/mosimiDev/greenopolis-web"
             target="_blank"
             rel="noreferrer"
             className="text-xl lg:text-2xl"
@@ -364,7 +445,7 @@ function Projects() {
         <h4 className="font-SFproBold font-bold lg:text-xl dark:text-[#fff]">
           Mobile Applications
         </h4>
-        <hr className="bg-yellow-300 p-1 mt-2 w-1/3 md:w-3/5 rounded-full" />
+        <hr className="bg-black p-1 mt-2 w-1/3 md:w-3/5 rounded-full" />
       </div>
       {/* Application Tabsss */}
       {/* Modal Section */}
@@ -376,9 +457,18 @@ function Projects() {
       <div className=" relative">
         {/* Application one */}
         <Swiper
+          spaceBetween={30}
+          centeredSlides={true}
+          autoplay={{
+            delay: 2500,
+            disableOnInteraction: false,
+          }}
+          pagination={{ clickable: true }}
+          navigation={true}
+          modules={[Autoplay, Pagination, Navigation]}
+          onAutoplayTimeLeft={onAutoplayTimeLeft}
           effect={"coverflow"}
           grabCursor={true}
-          centeredSlides={true}
           slidesPerView={"auto"}
           coverflowEffect={{
             rotate: 50,
@@ -387,8 +477,6 @@ function Projects() {
             modifier: 1,
             slideShadows: true,
           }}
-          pagination={true}
-          modules={[EffectCoverflow, Pagination]}
           className="mySwiperrr "
         >
           <SwiperSlide className="swiperrr-slide ">
@@ -415,7 +503,7 @@ function Projects() {
               alt="img"
             />
           </SwiperSlide>
-          <SwiperSlide className="swiperrr-slide ">
+          <SwiperSlide className="swiperrr-slide">
             <img
               src={require("../assets/Projects image/IMG_E8991.JPG")}
               alt="img"
@@ -433,7 +521,7 @@ function Projects() {
               alt="img"
             />
           </SwiperSlide>
-          <SwiperSlide className="swiperrr-slide ">
+          <SwiperSlide className="swiperrr-slide">
             <img
               src={require("../assets/Projects image/IMG_E8995.JPG")}
               alt="img"
@@ -447,12 +535,67 @@ function Projects() {
           </SwiperSlide>
         </Swiper>
 
-        <div className="mt-40">
+        {/* project description 1  */}
+        <div className="  w-[18rem] md:w-[26rem] lg:w-[28rem] md:mx-52 lg:mx-96  mx-auto z-20 y-[20rem]  ">
+          <ExpandableText
+            text={
+              " This is island microfinance bank's mobile application made with react-native. It is written in mostly typescript, package with yarn, and uses important libraries like expo that helps react native interface with ios and android without much configuration, react navigation for routing between screenns and components within the application, Zod a validation library made with typescript that helps with validation of data, react-hook-form a form validation library that helps validate user inputs within the application and Tailwind React Native Classnames(TWRNC) for easy styling of components without needing to constantly create Stylesheets all the time and will help with dark mode"
+            }
+            maxChars={100}
+          />
+          {/* Icons section */}
+          <div className="flex gap-5 w-20 mx-auto ">
+            <button
+              onClick={() =>
+                openModal(
+                  <div>
+                    <img
+                      src={require("../assets/Projects image/IslandmfbExpo.png")}
+                    />
+                    <a
+                      href="https://expo.dev/preview/update?message=updated%20deprecated%20packages&updateRuntimeVersion=1.0.0(1)&createdAt=2024-06-21T18%3A14%3A03.628Z&slug=exp&projectId=60a50835-a717-4615-ba7e-19065a7ab147&group=61eb7830-b4d9-48f7-9de8-93080bf20b7a"
+                      target="_blank"
+                      className="text-blue-500 underline text-sm"
+                    >
+                      https://expo.dev/preview/update?message=updated%20deprecated%20packages&updateRuntimeVersion=1.0.0(1)&createdAt=2024-06-21T18%3A14%3A03.628Z&slug=exp&projectId=60a50835-a717-4615-ba7e-19065a7ab147&group=61eb7830-b4d9-48f7-9de8-93080bf20b7a
+                    </a>
+                  </div>
+                )
+              }
+              className="text-xl lg:text-2xl"
+            >
+              <FontAwesomeIcon icon={faLink} className="dark:text-[#fff]" />
+            </button>
+            <a
+              href="https://github.com/mosimiDev/islandmfb-rn"
+              target="_blank"
+              rel="noreferrer"
+              className="text-xl lg:text-2xl"
+            >
+              <FontAwesomeIcon
+                icon={faSquareGithub}
+                className="dark:text-[#fff]"
+              />
+            </a>
+          </div>
+          {/* End of icon section */}
+        </div>
+
+        <div className="mt-[5rem]">
           {/* Application two */}
           <Swiper
+            spaceBetween={30}
+            centeredSlides={true}
+            autoplay={{
+              delay: 2500,
+              disableOnInteraction: false,
+            }}
+            pagination={{ clickable: true }}
+            navigation={true}
+            modules={[Autoplay, Pagination, Navigation]}
+            onAutoplayTimeLeft={onAutoplayTimeLeft}
             effect={"coverflow"}
             grabCursor={true}
-            centeredSlides={true}
             slidesPerView={"auto"}
             coverflowEffect={{
               rotate: 50,
@@ -461,8 +604,6 @@ function Projects() {
               modifier: 1,
               slideShadows: true,
             }}
-            pagination={true}
-            modules={[EffectCoverflow, Pagination]}
             className="mySwiperrr "
           >
             <SwiperSlide className="swiperrr-slide ">
@@ -543,57 +684,15 @@ function Projects() {
 
       {/* Project description section */}
       <div className="relative  mb-12 ">
-        {/* project description 1  */}
-        <div className="absolute bottom-[47rem]   w-72 md:w-[26rem] lg:w-[28rem] md:mx-52 lg:mx-96  mx-auto z-20  ">
-          <p className="font-SFproLight text-md lg:text-xl font-bold my-2 mx-5 dark:text-[#fff]">
-            ISLAND MICROFINANCE BANK application is built with React Native,
-            Typescript,React-Redux, TailwindCSS and Material UI Framework.
-          </p>
-          {/* Icons section */}
-          <div className="flex gap-5 w-20 mx-auto ">
-            <button
-              onClick={() =>
-                openModal(
-                  <div>
-                    <img
-                      src={require("../assets/Projects image/IslandmfbExpo.png")}
-                    />
-                    <a
-                      href="https://expo.dev/preview/update?message=updated%20deprecated%20packages&updateRuntimeVersion=1.0.0(1)&createdAt=2024-06-21T18%3A14%3A03.628Z&slug=exp&projectId=60a50835-a717-4615-ba7e-19065a7ab147&group=61eb7830-b4d9-48f7-9de8-93080bf20b7a"
-                      target="_blank"
-                      className="text-blue-500 underline text-sm"
-                    >
-                      https://expo.dev/preview/update?message=updated%20deprecated%20packages&updateRuntimeVersion=1.0.0(1)&createdAt=2024-06-21T18%3A14%3A03.628Z&slug=exp&projectId=60a50835-a717-4615-ba7e-19065a7ab147&group=61eb7830-b4d9-48f7-9de8-93080bf20b7a
-                    </a>
-                  </div>
-                )
-              }
-              className="text-xl lg:text-2xl"
-            >
-              <FontAwesomeIcon icon={faLink} className="dark:text-[#fff]" />
-            </button>
-            <a
-              href="https://github.com/mosimiDev/islandmfb-rn"
-              target="_blank"
-              rel="noreferrer"
-              className="text-xl lg:text-2xl"
-            >
-              <FontAwesomeIcon
-                icon={faSquareGithub}
-                className="dark:text-[#fff]"
-              />
-            </a>
-          </div>
-          {/* End of icon section */}
-        </div>
-
         {/* project description 2  */}
 
         <div className="w-72 md:w-[26rem] lg:w-[28rem] mx-auto lg:mx-96  ">
-          <p className="font-SFproLight font-bold text-md lg:text-xl my-2 mx-5 dark:text-[#fff]">
-            FOODIE is an app built with React Native, Typescript, Figma Tool,
-            and React-Redux to persist the state of the application.
-          </p>
+          <ExpandableText
+            text={
+              "This is foodie, a mobile application made with react-native. It is written in mostly typescript, packaged with npm, and uses libraries like expo that helps react native interface with ios and android without much configuration, react navigation for routing between screens and components within the application and Tailwind React Native Classnames(TWRNC) for easy styling of components without needing to constantly create Stylesheets all the time and will help with dark mode"
+            }
+            maxChars={100}
+          />
           {/* Icons section */}
           <div className="flex gap-5 w-20 mx-auto ">
             <button
@@ -631,82 +730,6 @@ function Projects() {
           </div>
           {/* End of icon section */}
         </div>
-      </div>
-
-      <div className="relative">
-        {/* Application three */}
-        <Swiper
-          effect={"coverflow"}
-          grabCursor={true}
-          centeredSlides={true}
-          slidesPerView={"auto"}
-          coverflowEffect={{
-            rotate: 50,
-            stretch: 0,
-            depth: 100,
-            modifier: 1,
-            slideShadows: true,
-          }}
-          pagination={true}
-          modules={[EffectCoverflow, Pagination]}
-          className="mySwiperrr "
-        >
-          <SwiperSlide className="swiperrr-slide ">
-            <img
-              src={require("../assets/Projects image/FireShot Capture 074 - React App - localhost.png")}
-              alt="img"
-            />
-          </SwiperSlide>
-          <SwiperSlide className="swiperrr-slide ">
-            <img
-              src={require("../assets/Projects image/Screenshot (28).png")}
-              alt="img"
-            />
-          </SwiperSlide>
-          <SwiperSlide className="swiperrr-slide ">
-            <img
-              src={require("../assets/Projects image/FireShot Capture 076 - React App - localhost.png")}
-              alt="img"
-            />
-          </SwiperSlide>
-          <SwiperSlide className="swiperrr-slide ">
-            <img
-              src={require("../assets/Projects image/FireShot Capture 077 - React App - localhost.png")}
-              alt="img"
-            />
-          </SwiperSlide>
-        </Swiper>
-      </div>
-      {/* Project description section */}
-
-      <div className="w-72 md:w-[26rem] lg:w-[28rem] mx-auto lg:mx-96  ">
-        <p className="font-SFproLight font-bold text-md lg:text-xl my-2 mx-5 dark:text-[#fff]">
-          WEATHER FORECAST is an app built with Typescript, Figma Tool, ReactJS,
-          TailwindCSS and Material UI Framework.
-        </p>
-        {/* Icons section */}
-        <div className="flex gap-5 w-20 mx-auto ">
-          <a
-            href="https://weather-forecast-app-e7fo-1p3cglb96-mosimidev.vercel.app/"
-            target="_blank"
-            rel="noreferrer"
-            className="text-xl lg:text-2xl"
-          >
-            <FontAwesomeIcon icon={faLink} className="dark:text-[#fff]" />
-          </a>
-          <a
-            href="https://github.com/mosimiDev/weather-forecast-app"
-            target="_blank"
-            rel="noreferrer"
-            className="text-xl lg:text-2xl"
-          >
-            <FontAwesomeIcon
-              icon={faSquareGithub}
-              className="dark:text-[#fff]"
-            />
-          </a>
-        </div>
-        {/* End of icon section */}
       </div>
 
       <Routes>
