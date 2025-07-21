@@ -205,7 +205,7 @@ function Projects() {
       <div className="w-3/4 mx-auto mt-6 mb-20">
         <ExpandableText
           text={
-            "Pens and Letters is a blog that fetches current news from an api to show users information in real time.It is built with NexJS, NextAuth for user authentication. It is written in mostly typescript, package with npm, and uses libraries like Zod a validation library made with typescript that helps with validation of data and Tailwind React Native Classnames(TWRNC) for easy styling of components without needing to constantly create Stylesheets all the time and will help with dark mode"
+            "Pens and Letters is a responsive, real-time news blog built to deliver up-to-date information to users by fetching content from a live news API. As a frontend-focused project, it demonstrates strong command of modern UI development using Next.js and TypeScript.User authentication is handled with NextAuth, providing a secure and seamless sign-in experience. The app emphasizes reliable and type-safe data handling through Zod, ensuring that content displayed is both valid and predictable for real-world user-facing applications.Styling is efficiently managed using Tailwind React Native Classnames (TWRNC), which enables utility-first, scalable design without the overhead of manual StyleSheet creation. This improves developer speed while keeping UI consistent and maintainable.With its focus on clean component architecture, data validation, user authentication, and dynamic content rendering, Pens and Letters showcases frontend problem-solving skills relevant to building production-ready applications that are performant, accessible, and easy to maintain."
           }
           maxChars={100}
         />
@@ -333,7 +333,7 @@ function Projects() {
       <div className="w-3/4 mx-auto mt-6 mb-20">
         <ExpandableText
           text={
-            "AeroGlide is a web application that uses 3D model to bring the company's creative ides to life. It uses meshes, textures and mapping to achieve this."
+            "AeroGlide is a visually interactive web application that brings a company’s creative concepts to life through immersive 3D modeling. Built with Three.js, it utilizes meshes, textures, and UV mapping to render high-quality 3D visuals directly in the browser.This project demonstrates practical frontend skills in integrating 3D environments into web interfaces that enables users to explore creative ideas in a dynamic and engaging way. By focusing on real-time rendering and performance optimization, AeroGlide shows how 3D web experiences can enhance storytelling, product visualization, and digital branding.With a clean component structure and an emphasis on user interaction, AeroGlide showcases the ability to deliver interactive, visually rich experiences using modern frontend technologies like React and Three.js."
           }
           maxChars={100}
         />
@@ -408,7 +408,7 @@ function Projects() {
       <div className="w-3/4 mx-auto mt-6 mb-20">
         <ExpandableText
           text={
-            "Greenopolis is a python based game and uses a library like phaser to build a web based version."
+            "Greenopolis is an  eco-themed game originally developed in Python, then adapted into a web-based version using Phaser, a powerful JavaScript game framework. The game combines interactive storytelling with environmental themes to engage users while promoting sustainability awareness. The browser version of Greenopolis leverages Phaser to manage animations, player interactions, and real-time game physics while showcasin frontend skills in building responsive, visually appealing interfaces that run smoothly in the browser. The transition from Python to web illustrates adaptability in working across platforms and translating game logic into performant, accessible web experiences."
           }
           maxChar={100}
         />
@@ -539,7 +539,7 @@ function Projects() {
         <div className="  w-[18rem] md:w-[26rem] lg:w-[28rem] md:mx-52 lg:mx-96  mx-auto z-20 y-[20rem]  ">
           <ExpandableText
             text={
-              " This is island microfinance bank's mobile application made with react-native. It is written in mostly typescript, package with yarn, and uses important libraries like expo that helps react native interface with ios and android without much configuration, react navigation for routing between screenns and components within the application, Zod a validation library made with typescript that helps with validation of data, react-hook-form a form validation library that helps validate user inputs within the application and Tailwind React Native Classnames(TWRNC) for easy styling of components without needing to constantly create Stylesheets all the time and will help with dark mode"
+              " Island Microfinance Bank App is a mobile banking application built with React Native, designed to provide users with secure, intuitive access to financial services on both iOS and Android platforms. Written primarily in TypeScript, the app is developed using Expo for streamlined cross-platform deployment with minimal native configuration.Navigation within the app is handled with React Navigation, allowing for smooth transitions between screens and a clean user experience. The app features robust form validation using both Zod (for schema-based data validation) and React Hook Form (for managing and validating user input efficiently). Styling is implemented using Tailwind React Native Classnames (TWRNC), enabling fast, utility-first styling and built-in support for dark mode, enhancing accessibility and user preference handling without verbose StyleSheet definitions.This project demonstrates strong frontend engineering skills in mobile development, with a focus on performance, scalability, form integrity, and user-centered design, all critical in real-world fintech applications."
             }
             maxChars={100}
           />
@@ -567,7 +567,7 @@ function Projects() {
               <FontAwesomeIcon icon={faLink} className="dark:text-[#fff]" />
             </button>
             <a
-              href="https://github.com/mosimiDev/islandmfb-rn"
+              href="https://github.com/mosimiDev/island-microfinance-bank"
               target="_blank"
               rel="noreferrer"
               className="text-xl lg:text-2xl"
@@ -689,7 +689,7 @@ function Projects() {
         <div className="w-72 md:w-[26rem] lg:w-[28rem] mx-auto lg:mx-96  ">
           <ExpandableText
             text={
-              "This is foodie, a mobile application made with react-native. It is written in mostly typescript, packaged with npm, and uses libraries like expo that helps react native interface with ios and android without much configuration, react navigation for routing between screens and components within the application and Tailwind React Native Classnames(TWRNC) for easy styling of components without needing to constantly create Stylesheets all the time and will help with dark mode"
+              "Foodie is an eCommerce mobile application built with React Native, designed to provide a seamless food ordering experience for users on both iOS and Android. Developed primarily in TypeScript and packaged with npm, the app leverages Expo for efficient cross-platform development without complex native setup.It features smooth in-app navigation using React Navigation, allowing users to browse products, manage their cart, and navigate through checkout flows effortlessly. Styling is handled with Tailwind React Native Classnames (TWRNC), enabling fast, utility-first component design while eliminating the need for repetitive StyleSheet declarations.Foodie combines responsive design and performance, efficiency to build a modern, real-world eCommerce solution for mobile users."
             }
             maxChars={100}
           />
