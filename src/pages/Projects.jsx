@@ -536,7 +536,7 @@ function Projects() {
         </Swiper>
 
         {/* project description 1  */}
-        <div className="  w-[18rem] md:w-[26rem] lg:w-[28rem] md:mx-52 lg:mx-96  mx-auto z-20 y-[20rem]  ">
+        <div className="  w-[18rem] md:w-[26rem] lg:w-3/4 md:mx-52  mx-auto z-20 y-[20rem]  ">
           <ExpandableText
             text={
               " Island Microfinance Bank App is a mobile banking application built with React Native, designed to provide users with secure, intuitive access to financial services on both iOS and Android platforms. Written primarily in TypeScript, the app is developed using Expo for streamlined cross-platform deployment with minimal native configuration.Navigation within the app is handled with React Navigation, allowing for smooth transitions between screens and a clean user experience. The app features robust form validation using both Zod (for schema-based data validation) and React Hook Form (for managing and validating user input efficiently). Styling is implemented using Tailwind React Native Classnames (TWRNC), enabling fast, utility-first styling and built-in support for dark mode, enhancing accessibility and user preference handling without verbose StyleSheet definitions.This project demonstrates strong frontend engineering skills in mobile development, with a focus on performance, scalability, form integrity, and user-centered design, all critical in real-world fintech applications."
@@ -686,7 +686,7 @@ function Projects() {
       <div className="relative  mb-12 ">
         {/* project description 2  */}
 
-        <div className="w-72 md:w-[26rem] lg:w-[28rem] mx-auto lg:mx-96  ">
+        <div className="w-72 md:w-[26rem] lg:w-3/4 mx-auto   ">
           <ExpandableText
             text={
               "Foodie is an eCommerce mobile application built with React Native, designed to provide a seamless food ordering experience for users on both iOS and Android. Developed primarily in TypeScript and packaged with npm, the app leverages Expo for efficient cross-platform development without complex native setup.It features smooth in-app navigation using React Navigation, allowing users to browse products, manage their cart, and navigate through checkout flows effortlessly. Styling is handled with Tailwind React Native Classnames (TWRNC), enabling fast, utility-first component design while eliminating the need for repetitive StyleSheet declarations.Foodie combines responsive design and performance, efficiency to build a modern, real-world eCommerce solution for mobile users."
