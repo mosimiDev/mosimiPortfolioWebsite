@@ -55,8 +55,8 @@ function Home() {
             Hi, I am <span className="text-[#58FFF5]">Mosimi</span>
           </div>
           <div className=" font-SFproLight  text-md md:text-2xl md:w-[20rem] tracking-wide w-40  lg:w-[40rem] text-white mx-auto my-1 lg:my-4 py-0  text-center dark:bg-[#fff]">
-            I am a frontend engineer and a creative that helps businesses bring their
-            ideas to life and achieve their creative goals
+            I am a frontend engineer and a creative that helps businesses bring
+            their ideas to life and achieve their creative goals
           </div>
 
           {/* Social Pages */}
@@ -94,7 +94,7 @@ function Home() {
         </div>
 
         {/* Image section */}
-        <div className="rounded-full mt-4 relative lg:right-32 top-12 lg:mt-6 mb-4 w-64 h-64 lg:w-72 lg:h-72 bg-[#fff] z-20">
+        <div className="rounded-full mt-4 relative lg:right-32 top-12 lg:mt-6 mb-4 w-64 h-64 lg:w-72 lg:h-72 bg-[#58FFF5] z-20">
           <img
             src={require("../assets/IMG_5042.JPG")}
             alt="img"
